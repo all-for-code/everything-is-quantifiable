@@ -1,0 +1,617 @@
+0 3ff0000000000000 3fefff2e48e8a71e
+2_nn.Embedding_output: 3baae1c9
+4_nn.Embedding_output: 3b8fe8f1
+6_nn.Embedding_output: 3ba84a86
+7_nn.Sum_output: 3c2987a6
+8_nn.Sum_output: 3c1785d7
+9_trt.LayerNorm_output: 3da81989
+(Unnamed Layer* 9) [Constant]_output: 3b1a7b96
+(Unnamed Layer* 10) [Matrix Multiply]_output: 3d31f89a
+(Unnamed Layer* 11) [Constant]_output: 3c078d35
+13_trt.addLinear_output: 3d3ba36d
+14_trt.Shuffle.att_q_view_transpose_output: 3d3ba36d
+(Unnamed Layer* 14) [Constant]_output: 3b3eaf93
+(Unnamed Layer* 15) [Matrix Multiply]_output: 3da16c15
+(Unnamed Layer* 16) [Constant]_output: 38cd818b
+18_trt.addLinear_output: 3da162f6
+19_trt.Shuffle.att_k_view_and transpose_output: 3da162f6
+(Unnamed Layer* 19) [Constant]_output: 3a799849
+(Unnamed Layer* 20) [Matrix Multiply]_output: 3cb93961
+(Unnamed Layer* 21) [Constant]_output: 3b012be6
+23_trt.addLinear_output: 3cb93c73
+24_trt.Shuffle.att_v_view_and transpose_output: 3cb93c73
+25_torch.matmul.q_mul_k_output: 3f31f453
+26_Scale_output: 3db1f453
+27_nn.Softmax[dim=4]_output: 3bada83e
+28_torch.matmul.matmul(p_attn, value)_output: 3c692189
+29_trt.Shuffle.attn_transpose_and_reshape_output: 3c692189
+(Unnamed Layer* 29) [Constant]_output: 3ae962a9
+(Unnamed Layer* 30) [Matrix Multiply]_output: 3c0fbef8
+(Unnamed Layer* 31) [Constant]_output: 3b1e9651
+33_trt.addLinear_output: 3c14108d
+34_nn.Sum_output: 3db38d2b
+35_trt.LayerNorm_output: 3da415c8
+(Unnamed Layer* 35) [Constant]_output: 3aac7197
+(Unnamed Layer* 36) [Matrix Multiply]_output: 3d6c7f4b
+(Unnamed Layer* 37) [Constant]_output: 3b516115
+39_trt.addLinear_output: 3d69aecc
+(Unnamed Layer* 39) [Constant]_output: 3cc18306
+(Unnamed Layer* 40) [Constant]_output: 39b89844
+(Unnamed Layer* 41) [Constant]_output: 3bcddde6
+(Unnamed Layer* 42) [Constant]_output: 3c010204
+(Unnamed Layer* 43) [Constant]_output: 3b810204
+(Unnamed Layer* 44) [ElementWise]_output: 403fafac
+(Unnamed Layer* 45) [ElementWise]_output: 3e0923d6
+(Unnamed Layer* 46) [ElementWise]_output: 3e43d478
+(Unnamed Layer* 47) [ElementWise]_output: 3e1c3fec
+(Unnamed Layer* 48) [Activation]_output: 3c010204
+(Unnamed Layer* 49) [ElementWise]_output: 3c810204
+(Unnamed Layer* 50) [ElementWise]_output: 3c010204
+52_nn.GELU_output: 3d0a2d05
+(Unnamed Layer* 52) [Constant]_output: 3b02bb3f
+(Unnamed Layer* 53) [Matrix Multiply]_output: 3decf21a
+(Unnamed Layer* 54) [Constant]_output: 3b8799c4
+56_trt.addLinear_output: 3defd99e
+57_nn.Sum_output: 3e215bd7
+58_trt.LayerNorm_output: 3db8a9ee
+(Unnamed Layer* 58) [Constant]_output: 3ae495b1
+(Unnamed Layer* 59) [Matrix Multiply]_output: 3d0eb489
+(Unnamed Layer* 60) [Constant]_output: 3be529bd
+62_trt.addLinear_output: 3d0f7d69
+63_trt.Shuffle.att_q_view_transpose_output: 3d0f7d69
+(Unnamed Layer* 63) [Constant]_output: 3af666eb
+(Unnamed Layer* 64) [Matrix Multiply]_output: 3d1cfc55
+(Unnamed Layer* 65) [Constant]_output: 39676be9
+67_trt.addLinear_output: 3d1cdd41
+68_trt.Shuffle.att_k_view_and transpose_output: 3d1cdd41
+(Unnamed Layer* 68) [Constant]_output: 3a87e4d0
+(Unnamed Layer* 69) [Matrix Multiply]_output: 3cb76386
+(Unnamed Layer* 70) [Constant]_output: 3b785bd8
+72_trt.addLinear_output: 3cb830e2
+73_trt.Shuffle.att_v_view_and transpose_output: 3cb830e2
+74_torch.matmul.q_mul_k_output: 3eac11c5
+75_Scale_output: 3d2c11c5
+76_nn.Softmax[dim=4]_output: 3b5b5834
+77_torch.matmul.matmul(p_attn, value)_output: 3c40b6b0
+78_trt.Shuffle.attn_transpose_and_reshape_output: 3c40b6b0
+(Unnamed Layer* 78) [Constant]_output: 3acf0a79
+(Unnamed Layer* 79) [Matrix Multiply]_output: 3c060348
+(Unnamed Layer* 80) [Constant]_output: 3b150670
+82_trt.addLinear_output: 3c02302a
+83_nn.Sum_output: 3dbe5ae2
+84_trt.LayerNorm_output: 3db5fe75
+(Unnamed Layer* 84) [Constant]_output: 3abd7980
+(Unnamed Layer* 85) [Matrix Multiply]_output: 3da4617d
+(Unnamed Layer* 86) [Constant]_output: 3babf0f7
+88_trt.addLinear_output: 3da8686d
+(Unnamed Layer* 88) [Constant]_output: 3cc18306
+(Unnamed Layer* 89) [Constant]_output: 39b89844
+(Unnamed Layer* 90) [Constant]_output: 3bcddde6
+(Unnamed Layer* 91) [Constant]_output: 3c010204
+(Unnamed Layer* 92) [Constant]_output: 3b810204
+(Unnamed Layer* 93) [ElementWise]_output: 410f3590
+(Unnamed Layer* 94) [ElementWise]_output: 3eccea4c
+(Unnamed Layer* 95) [ElementWise]_output: 3ef6ac06
+(Unnamed Layer* 96) [ElementWise]_output: 3ec4d0d6
+(Unnamed Layer* 97) [Activation]_output: 3c010204
+(Unnamed Layer* 98) [ElementWise]_output: 3c810204
+(Unnamed Layer* 99) [ElementWise]_output: 3c010204
+101_nn.GELU_output: 3cf8313f
+(Unnamed Layer* 101) [Constant]_output: 3b0451d1
+(Unnamed Layer* 102) [Matrix Multiply]_output: 3df47fd6
+(Unnamed Layer* 103) [Constant]_output: 3b1db4da
+105_trt.addLinear_output: 3df87a18
+106_nn.Sum_output: 3e456ca1
+107_trt.LayerNorm_output: 3dcd391d
+(Unnamed Layer* 107) [Constant]_output: 3b2f4ff9
+(Unnamed Layer* 108) [Matrix Multiply]_output: 3d1da014
+(Unnamed Layer* 109) [Constant]_output: 3bd40d2e
+111_trt.addLinear_output: 3d1d0442
+112_trt.Shuffle.att_q_view_transpose_output: 3d1d0442
+(Unnamed Layer* 112) [Constant]_output: 3b2fe595
+(Unnamed Layer* 113) [Matrix Multiply]_output: 3d184bb8
+(Unnamed Layer* 114) [Constant]_output: 395f6984
+116_trt.addLinear_output: 3d184b1d
+117_trt.Shuffle.att_k_view_and transpose_output: 3d184b1d
+(Unnamed Layer* 117) [Constant]_output: 3a83f9f4
+(Unnamed Layer* 118) [Matrix Multiply]_output: 3cc15d07
+(Unnamed Layer* 119) [Constant]_output: 3b9b0e90
+121_trt.addLinear_output: 3cc16775
+122_trt.Shuffle.att_v_view_and transpose_output: 3cc16775
+123_torch.matmul.q_mul_k_output: 3edaad94
+124_Scale_output: 3d5aad94
+125_nn.Softmax[dim=4]_output: 3bbdb0cb
+126_torch.matmul.matmul(p_attn, value)_output: 3c77891f
+127_trt.Shuffle.attn_transpose_and_reshape_output: 3c77891f
+(Unnamed Layer* 127) [Constant]_output: 3a9d3147
+(Unnamed Layer* 128) [Matrix Multiply]_output: 3c7412b1
+(Unnamed Layer* 129) [Constant]_output: 3b5721a0
+131_trt.addLinear_output: 3c7f48ce
+132_nn.Sum_output: 3db977a2
+133_trt.LayerNorm_output: 3dbe6f7f
+(Unnamed Layer* 133) [Constant]_output: 3af24eb3
+(Unnamed Layer* 134) [Matrix Multiply]_output: 3d273fba
+(Unnamed Layer* 135) [Constant]_output: 3b9e1e19
+137_trt.addLinear_output: 3d2675b4
+(Unnamed Layer* 137) [Constant]_output: 3cc18306
+(Unnamed Layer* 138) [Constant]_output: 39b89844
+(Unnamed Layer* 139) [Constant]_output: 3bcddde6
+(Unnamed Layer* 140) [Constant]_output: 3c010204
+(Unnamed Layer* 141) [Constant]_output: 3b810204
+(Unnamed Layer* 142) [ElementWise]_output: 3f9f33df
+(Unnamed Layer* 143) [ElementWise]_output: 3d63ccc2
+(Unnamed Layer* 144) [ElementWise]_output: 3dbf715d
+(Unnamed Layer* 145) [ElementWise]_output: 3d98bfd1
+(Unnamed Layer* 146) [Activation]_output: 3c010204
+(Unnamed Layer* 147) [ElementWise]_output: 3c810204
+(Unnamed Layer* 148) [ElementWise]_output: 3c010204
+150_nn.GELU_output: 3d102696
+(Unnamed Layer* 150) [Constant]_output: 3af5074f
+(Unnamed Layer* 151) [Matrix Multiply]_output: 3e5a7e0a
+(Unnamed Layer* 152) [Constant]_output: 3b3d9422
+154_trt.addLinear_output: 3e5ca11c
+155_nn.Sum_output: 3e8f133d
+156_trt.LayerNorm_output: 3dc17e9f
+(Unnamed Layer* 156) [Constant]_output: 3ae21048
+(Unnamed Layer* 157) [Matrix Multiply]_output: 3d0c3d24
+(Unnamed Layer* 158) [Constant]_output: 3bc62c9f
+160_trt.addLinear_output: 3d0e25ab
+161_trt.Shuffle.att_q_view_transpose_output: 3d0e25ab
+(Unnamed Layer* 161) [Constant]_output: 3aedc1bc
+(Unnamed Layer* 162) [Matrix Multiply]_output: 3d10b367
+(Unnamed Layer* 163) [Constant]_output: 39347a19
+165_trt.addLinear_output: 3d10c411
+166_trt.Shuffle.att_k_view_and transpose_output: 3d10c411
+(Unnamed Layer* 166) [Constant]_output: 3a92bf8c
+(Unnamed Layer* 167) [Matrix Multiply]_output: 3cd269a9
+(Unnamed Layer* 168) [Constant]_output: 3b258607
+170_trt.addLinear_output: 3cd2d8c6
+171_trt.Shuffle.att_v_view_and transpose_output: 3cd2d8c6
+172_torch.matmul.q_mul_k_output: 3eab5495
+173_Scale_output: 3d2b5495
+174_nn.Softmax[dim=4]_output: 3b5e0811
+175_torch.matmul.matmul(p_attn, value)_output: 3c5b57a1
+176_trt.Shuffle.attn_transpose_and_reshape_output: 3c5b57a1
+(Unnamed Layer* 176) [Constant]_output: 3aabfdd8
+(Unnamed Layer* 177) [Matrix Multiply]_output: 3c4e1172
+(Unnamed Layer* 178) [Constant]_output: 3b0fc0f1
+180_trt.addLinear_output: 3c4d9f4e
+181_nn.Sum_output: 3dc5df32
+182_trt.LayerNorm_output: 3dbad4a1
+(Unnamed Layer* 182) [Constant]_output: 3ae3aefa
+(Unnamed Layer* 183) [Matrix Multiply]_output: 3d88eace
+(Unnamed Layer* 184) [Constant]_output: 3b992f45
+186_trt.addLinear_output: 3d8d80ec
+(Unnamed Layer* 186) [Constant]_output: 3cc18306
+(Unnamed Layer* 187) [Constant]_output: 39b89844
+(Unnamed Layer* 188) [Constant]_output: 3bcddde6
+(Unnamed Layer* 189) [Constant]_output: 3c010204
+(Unnamed Layer* 190) [Constant]_output: 3b810204
+(Unnamed Layer* 191) [ElementWise]_output: 40ab1395
+(Unnamed Layer* 192) [ElementWise]_output: 3e74ca38
+(Unnamed Layer* 193) [ElementWise]_output: 3e9c57d7
+(Unnamed Layer* 194) [ElementWise]_output: 3e797ccf
+(Unnamed Layer* 195) [Activation]_output: 3c010204
+(Unnamed Layer* 196) [ElementWise]_output: 3c810204
+(Unnamed Layer* 197) [ElementWise]_output: 3c010204
+199_nn.GELU_output: 3d0280ca
+(Unnamed Layer* 199) [Constant]_output: 3aed96be
+(Unnamed Layer* 200) [Matrix Multiply]_output: 3dcef80e
+(Unnamed Layer* 201) [Constant]_output: 3b9cf710
+203_trt.addLinear_output: 3dd6c95c
+204_nn.Sum_output: 3e3a8660
+205_trt.LayerNorm_output: 3db6e32b
+(Unnamed Layer* 205) [Constant]_output: 3acefe0b
+(Unnamed Layer* 206) [Matrix Multiply]_output: 3d0c3849
+(Unnamed Layer* 207) [Constant]_output: 3bb9f331
+209_trt.addLinear_output: 3d0f0c59
+210_trt.Shuffle.att_q_view_transpose_output: 3d0f0c59
+(Unnamed Layer* 210) [Constant]_output: 3ad1155d
+(Unnamed Layer* 211) [Matrix Multiply]_output: 3d0b6226
+(Unnamed Layer* 212) [Constant]_output: 3936d9fb
+214_trt.addLinear_output: 3d0b5324
+215_trt.Shuffle.att_k_view_and transpose_output: 3d0b5324
+(Unnamed Layer* 215) [Constant]_output: 3aa05528
+(Unnamed Layer* 216) [Matrix Multiply]_output: 3cf4f82d
+(Unnamed Layer* 217) [Constant]_output: 3aac9b0c
+219_trt.addLinear_output: 3cf55ff7
+220_trt.Shuffle.att_v_view_and transpose_output: 3cf55ff7
+221_torch.matmul.q_mul_k_output: 3ec29525
+222_Scale_output: 3d429525
+223_nn.Softmax[dim=4]_output: 3b564883
+224_torch.matmul.matmul(p_attn, value)_output: 3c67a580
+225_trt.Shuffle.attn_transpose_and_reshape_output: 3c67a580
+(Unnamed Layer* 225) [Constant]_output: 3aa99414
+(Unnamed Layer* 226) [Matrix Multiply]_output: 3c3b09ec
+(Unnamed Layer* 227) [Constant]_output: 3b864e83
+229_trt.addLinear_output: 3c3da8fd
+230_nn.Sum_output: 3db429c3
+231_trt.LayerNorm_output: 3dad5835
+(Unnamed Layer* 231) [Constant]_output: 3ad3b372
+(Unnamed Layer* 232) [Matrix Multiply]_output: 3d52939e
+(Unnamed Layer* 233) [Constant]_output: 3b832ed0
+235_trt.addLinear_output: 3d5a1c0a
+(Unnamed Layer* 235) [Constant]_output: 3cc18306
+(Unnamed Layer* 236) [Constant]_output: 39b89844
+(Unnamed Layer* 237) [Constant]_output: 3bcddde6
+(Unnamed Layer* 238) [Constant]_output: 3c010204
+(Unnamed Layer* 239) [Constant]_output: 3b810204
+(Unnamed Layer* 240) [ElementWise]_output: 4024dd6b
+(Unnamed Layer* 241) [ElementWise]_output: 3debe6e3
+(Unnamed Layer* 242) [ElementWise]_output: 3e2c3e26
+(Unnamed Layer* 243) [ElementWise]_output: 3e096e0b
+(Unnamed Layer* 244) [Activation]_output: 3c010204
+(Unnamed Layer* 245) [ElementWise]_output: 3c80e1c4
+(Unnamed Layer* 246) [ElementWise]_output: 3c00e1c4
+248_nn.GELU_output: 3cc0fc5a
+(Unnamed Layer* 248) [Constant]_output: 3af75d61
+(Unnamed Layer* 249) [Matrix Multiply]_output: 3d3db529
+(Unnamed Layer* 250) [Constant]_output: 3b3101e2
+252_trt.addLinear_output: 3d46da43
+253_nn.Sum_output: 3df12d5c
+254_trt.LayerNorm_output: 3da93a77
+(Unnamed Layer* 254) [Constant]_output: 3ac7a1f3
+(Unnamed Layer* 255) [Matrix Multiply]_output: 3d0c4e05
+(Unnamed Layer* 256) [Constant]_output: 3bb2b8c9
+258_trt.addLinear_output: 3d0c6b20
+259_trt.Shuffle.att_q_view_transpose_output: 3d0c6b20
+(Unnamed Layer* 259) [Constant]_output: 3acff5a7
+(Unnamed Layer* 260) [Matrix Multiply]_output: 3d13e055
+(Unnamed Layer* 261) [Constant]_output: 3942a3c7
+263_trt.addLinear_output: 3d13ed06
+264_trt.Shuffle.att_k_view_and transpose_output: 3d13ed06
+(Unnamed Layer* 264) [Constant]_output: 3aa702c5
+(Unnamed Layer* 265) [Matrix Multiply]_output: 3cf64cb2
+(Unnamed Layer* 266) [Constant]_output: 3acb98bf
+268_trt.addLinear_output: 3cf658c8
+269_trt.Shuffle.att_v_view_and transpose_output: 3cf658c8
+270_torch.matmul.q_mul_k_output: 3ea58220
+271_Scale_output: 3d258220
+272_nn.Softmax[dim=4]_output: 3b527b9f
+273_torch.matmul.matmul(p_attn, value)_output: 3c7672cb
+274_trt.Shuffle.attn_transpose_and_reshape_output: 3c7672cb
+(Unnamed Layer* 274) [Constant]_output: 3aaa5062
+(Unnamed Layer* 275) [Matrix Multiply]_output: 3c9a9964
+(Unnamed Layer* 276) [Constant]_output: 3bc6eca5
+278_trt.addLinear_output: 3ccc3492
+279_nn.Sum_output: 3d84939e
+280_trt.LayerNorm_output: 3d8ccecf
+(Unnamed Layer* 280) [Constant]_output: 3ac798a5
+(Unnamed Layer* 281) [Matrix Multiply]_output: 3d4f831a
+(Unnamed Layer* 282) [Constant]_output: 3b982f15
+284_trt.addLinear_output: 3d564373
+(Unnamed Layer* 284) [Constant]_output: 3cc18306
+(Unnamed Layer* 285) [Constant]_output: 39b89844
+(Unnamed Layer* 286) [Constant]_output: 3bcddde6
+(Unnamed Layer* 287) [Constant]_output: 3c010204
+(Unnamed Layer* 288) [Constant]_output: 3b810204
+(Unnamed Layer* 289) [ElementWise]_output: 40166113
+(Unnamed Layer* 290) [ElementWise]_output: 3dd72cb0
+(Unnamed Layer* 291) [ElementWise]_output: 3e1f85e7
+(Unnamed Layer* 292) [ElementWise]_output: 3dfe8fde
+(Unnamed Layer* 293) [Activation]_output: 3c010204
+(Unnamed Layer* 294) [ElementWise]_output: 3c80f1e4
+(Unnamed Layer* 295) [ElementWise]_output: 3c00f1e4
+297_nn.GELU_output: 3ccc1f31
+(Unnamed Layer* 297) [Constant]_output: 3af5deed
+(Unnamed Layer* 298) [Matrix Multiply]_output: 3d3e7b24
+(Unnamed Layer* 299) [Constant]_output: 3b9f24e6
+301_trt.addLinear_output: 3d42c077
+302_nn.Sum_output: 3dbb88cb
+303_trt.LayerNorm_output: 3d868a3d
+(Unnamed Layer* 303) [Constant]_output: 3abfbdc6
+(Unnamed Layer* 304) [Matrix Multiply]_output: 3d0c7354
+(Unnamed Layer* 305) [Constant]_output: 3b9b147a
+307_trt.addLinear_output: 3d0ce291
+308_trt.Shuffle.att_q_view_transpose_output: 3d0ce291
+(Unnamed Layer* 308) [Constant]_output: 3ad41c30
+(Unnamed Layer* 309) [Matrix Multiply]_output: 3d0c66a3
+(Unnamed Layer* 310) [Constant]_output: 393ee415
+312_trt.addLinear_output: 3d0c6a03
+313_trt.Shuffle.att_k_view_and transpose_output: 3d0c6a03
+(Unnamed Layer* 313) [Constant]_output: 3a9b751b
+(Unnamed Layer* 314) [Matrix Multiply]_output: 3ce3ba83
+(Unnamed Layer* 315) [Constant]_output: 3aa33ebf
+317_trt.addLinear_output: 3ce45e57
+318_trt.Shuffle.att_v_view_and transpose_output: 3ce45e57
+319_torch.matmul.q_mul_k_output: 3ea2d4b3
+320_Scale_output: 3d22d4b3
+321_nn.Softmax[dim=4]_output: 3b7637d8
+322_torch.matmul.matmul(p_attn, value)_output: 3c72334e
+323_trt.Shuffle.attn_transpose_and_reshape_output: 3c72334e
+(Unnamed Layer* 323) [Constant]_output: 3a9f4358
+(Unnamed Layer* 324) [Matrix Multiply]_output: 3c42b754
+(Unnamed Layer* 325) [Constant]_output: 3bd3f611
+327_trt.addLinear_output: 3c44d4e9
+328_nn.Sum_output: 3d7f5992
+329_trt.LayerNorm_output: 3d6fb1e5
+(Unnamed Layer* 329) [Constant]_output: 3abf852b
+(Unnamed Layer* 330) [Matrix Multiply]_output: 3d4fa6b3
+(Unnamed Layer* 331) [Constant]_output: 3bb9a490
+333_trt.addLinear_output: 3d55ebcf
+(Unnamed Layer* 333) [Constant]_output: 3cc18306
+(Unnamed Layer* 334) [Constant]_output: 39b89844
+(Unnamed Layer* 335) [Constant]_output: 3bcddde6
+(Unnamed Layer* 336) [Constant]_output: 3c010204
+(Unnamed Layer* 337) [Constant]_output: 3b810204
+(Unnamed Layer* 338) [ElementWise]_output: 4013d043
+(Unnamed Layer* 339) [ElementWise]_output: 3dd380e0
+(Unnamed Layer* 340) [ElementWise]_output: 3e21c24f
+(Unnamed Layer* 341) [ElementWise]_output: 3e0110a5
+(Unnamed Layer* 342) [Activation]_output: 3c010204
+(Unnamed Layer* 343) [ElementWise]_output: 3c810204
+(Unnamed Layer* 344) [ElementWise]_output: 3c010204
+346_nn.GELU_output: 3cde421b
+(Unnamed Layer* 346) [Constant]_output: 3aed8102
+(Unnamed Layer* 347) [Matrix Multiply]_output: 3d2a21cd
+(Unnamed Layer* 348) [Constant]_output: 3b8dfe3a
+350_trt.addLinear_output: 3d3585d4
+351_nn.Sum_output: 3d90ec75
+352_trt.LayerNorm_output: 3d477c7d
+(Unnamed Layer* 352) [Constant]_output: 3abe6111
+(Unnamed Layer* 353) [Matrix Multiply]_output: 3d0e0c6c
+(Unnamed Layer* 354) [Constant]_output: 3bdf4e63
+356_trt.addLinear_output: 3d0f87da
+357_trt.Shuffle.att_q_view_transpose_output: 3d0f87da
+(Unnamed Layer* 357) [Constant]_output: 3ad0ce0c
+(Unnamed Layer* 358) [Matrix Multiply]_output: 3d16e6cf
+(Unnamed Layer* 359) [Constant]_output: 39305fff
+361_trt.addLinear_output: 3d16f3e4
+362_trt.Shuffle.att_k_view_and transpose_output: 3d16f3e4
+(Unnamed Layer* 362) [Constant]_output: 3a90b041
+(Unnamed Layer* 363) [Matrix Multiply]_output: 3cd98121
+(Unnamed Layer* 364) [Constant]_output: 3af3e71f
+366_trt.addLinear_output: 3cda07cd
+367_trt.Shuffle.att_v_view_and transpose_output: 3cda07cd
+368_torch.matmul.q_mul_k_output: 3ec01c90
+369_Scale_output: 3d401c90
+370_nn.Softmax[dim=4]_output: 3b9114ca
+371_torch.matmul.matmul(p_attn, value)_output: 3c7e1980
+372_trt.Shuffle.attn_transpose_and_reshape_output: 3c7e1980
+(Unnamed Layer* 372) [Constant]_output: 3a988b01
+(Unnamed Layer* 373) [Matrix Multiply]_output: 3c34b501
+(Unnamed Layer* 374) [Constant]_output: 3c326095
+376_trt.addLinear_output: 3c35bba8
+377_nn.Sum_output: 3d4dd41c
+378_trt.LayerNorm_output: 3d417a08
+(Unnamed Layer* 378) [Constant]_output: 3ab5859e
+(Unnamed Layer* 379) [Matrix Multiply]_output: 3d2edc04
+(Unnamed Layer* 380) [Constant]_output: 3b94a854
+382_trt.addLinear_output: 3d34c2ef
+(Unnamed Layer* 382) [Constant]_output: 3cc18306
+(Unnamed Layer* 383) [Constant]_output: 39b89844
+(Unnamed Layer* 384) [Constant]_output: 3bcddde6
+(Unnamed Layer* 385) [Constant]_output: 3c010204
+(Unnamed Layer* 386) [Constant]_output: 3b810204
+(Unnamed Layer* 387) [ElementWise]_output: 3fb12083
+(Unnamed Layer* 388) [ElementWise]_output: 3d7d728d
+(Unnamed Layer* 389) [ElementWise]_output: 3ddd12c4
+(Unnamed Layer* 390) [ElementWise]_output: 3db06416
+(Unnamed Layer* 391) [Activation]_output: 3c010204
+(Unnamed Layer* 392) [ElementWise]_output: 3c80f1e4
+(Unnamed Layer* 393) [ElementWise]_output: 3c00f1e4
+395_nn.GELU_output: 3ccfb77e
+(Unnamed Layer* 395) [Constant]_output: 3ad93278
+(Unnamed Layer* 396) [Matrix Multiply]_output: 3d7a9367
+(Unnamed Layer* 397) [Constant]_output: 3bc019d6
+399_trt.addLinear_output: 3d88350d
+400_nn.Sum_output: 3dd0c2ad
+401_trt.LayerNorm_output: 3d88926e
+(Unnamed Layer* 401) [Constant]_output: 3ac53d19
+(Unnamed Layer* 402) [Matrix Multiply]_output: 3d0d4d1c
+(Unnamed Layer* 403) [Constant]_output: 3bbf0f14
+405_trt.addLinear_output: 3d0f1c08
+406_trt.Shuffle.att_q_view_transpose_output: 3d0f1c08
+(Unnamed Layer* 406) [Constant]_output: 3ae5bd31
+(Unnamed Layer* 407) [Matrix Multiply]_output: 3d19b958
+(Unnamed Layer* 408) [Constant]_output: 3950da99
+410_trt.addLinear_output: 3d19d3f1
+411_trt.Shuffle.att_k_view_and transpose_output: 3d19d3f1
+(Unnamed Layer* 411) [Constant]_output: 3a9af9da
+(Unnamed Layer* 412) [Matrix Multiply]_output: 3ce383d6
+(Unnamed Layer* 413) [Constant]_output: 3b67c8b6
+415_trt.addLinear_output: 3ce3b369
+416_trt.Shuffle.att_v_view_and transpose_output: 3ce3b369
+417_torch.matmul.q_mul_k_output: 3eafdd3b
+418_Scale_output: 3d2fdd3b
+419_nn.Softmax[dim=4]_output: 3b89cf54
+420_torch.matmul.matmul(p_attn, value)_output: 3c7cbede
+421_trt.Shuffle.attn_transpose_and_reshape_output: 3c7cbede
+(Unnamed Layer* 421) [Constant]_output: 3ab1072d
+(Unnamed Layer* 422) [Matrix Multiply]_output: 3c46ea4a
+(Unnamed Layer* 423) [Constant]_output: 3c1cd46a
+425_trt.addLinear_output: 3c48e60d
+426_nn.Sum_output: 3d8d8d7f
+427_trt.LayerNorm_output: 3d8877ff
+(Unnamed Layer* 427) [Constant]_output: 3ab52f95
+(Unnamed Layer* 428) [Matrix Multiply]_output: 3d43fd16
+(Unnamed Layer* 429) [Constant]_output: 3b65e769
+431_trt.addLinear_output: 3d48e33d
+(Unnamed Layer* 431) [Constant]_output: 3cc18306
+(Unnamed Layer* 432) [Constant]_output: 39b89844
+(Unnamed Layer* 433) [Constant]_output: 3bcddde6
+(Unnamed Layer* 434) [Constant]_output: 3c010204
+(Unnamed Layer* 435) [Constant]_output: 3b810204
+(Unnamed Layer* 436) [ElementWise]_output: 3ff4c834
+(Unnamed Layer* 437) [ElementWise]_output: 3daf207a
+(Unnamed Layer* 438) [ElementWise]_output: 3e0ad4e6
+(Unnamed Layer* 439) [ElementWise]_output: 3ddd8b12
+(Unnamed Layer* 440) [Activation]_output: 3c010204
+(Unnamed Layer* 441) [ElementWise]_output: 3c80f1e4
+(Unnamed Layer* 442) [ElementWise]_output: 3c00f1e4
+444_nn.GELU_output: 3ccb6216
+(Unnamed Layer* 444) [Constant]_output: 3ad221fa
+(Unnamed Layer* 445) [Matrix Multiply]_output: 3e211357
+(Unnamed Layer* 446) [Constant]_output: 3bd0dbbd
+448_trt.addLinear_output: 3e2200fc
+449_nn.Sum_output: 3e366645
+450_trt.LayerNorm_output: 3da6cc5f
+(Unnamed Layer* 450) [Constant]_output: 3ac22591
+(Unnamed Layer* 451) [Matrix Multiply]_output: 3d11d050
+(Unnamed Layer* 452) [Constant]_output: 3bc5768e
+454_trt.addLinear_output: 3d13d7d8
+455_trt.Shuffle.att_q_view_transpose_output: 3d13d7d8
+(Unnamed Layer* 455) [Constant]_output: 3b043966
+(Unnamed Layer* 456) [Matrix Multiply]_output: 3d1ce076
+(Unnamed Layer* 457) [Constant]_output: 39857ae6
+459_trt.addLinear_output: 3d1cceb4
+460_trt.Shuffle.att_k_view_and transpose_output: 3d1cceb4
+(Unnamed Layer* 460) [Constant]_output: 3a992bdb
+(Unnamed Layer* 461) [Matrix Multiply]_output: 3ce65636
+(Unnamed Layer* 462) [Constant]_output: 3b040fe8
+464_trt.addLinear_output: 3ce66b74
+465_trt.Shuffle.att_v_view_and transpose_output: 3ce66b74
+466_torch.matmul.q_mul_k_output: 3eb888ab
+467_Scale_output: 3d3888ab
+468_nn.Softmax[dim=4]_output: 3b979371
+469_torch.matmul.matmul(p_attn, value)_output: 3c7e66c7
+470_trt.Shuffle.attn_transpose_and_reshape_output: 3c7e66c7
+(Unnamed Layer* 470) [Constant]_output: 3aada09c
+(Unnamed Layer* 471) [Matrix Multiply]_output: 3c3705d9
+(Unnamed Layer* 472) [Constant]_output: 3ba68afa
+474_trt.addLinear_output: 3c36a004
+475_nn.Sum_output: 3da55741
+476_trt.LayerNorm_output: 3d9da698
+(Unnamed Layer* 476) [Constant]_output: 3b34c82b
+(Unnamed Layer* 477) [Matrix Multiply]_output: 3e2af3aa
+(Unnamed Layer* 478) [Constant]_output: 3b9347d2
+480_trt.addLinear_output: 3e2ca3c6
+(Unnamed Layer* 480) [Constant]_output: 3cc18306
+(Unnamed Layer* 481) [Constant]_output: 39b89844
+(Unnamed Layer* 482) [Constant]_output: 3bcddde6
+(Unnamed Layer* 483) [Constant]_output: 3c010204
+(Unnamed Layer* 484) [Constant]_output: 3b810204
+(Unnamed Layer* 485) [ElementWise]_output: 429948db
+(Unnamed Layer* 486) [ElementWise]_output: 405b54f4
+(Unnamed Layer* 487) [ElementWise]_output: 406848e8
+(Unnamed Layer* 488) [ElementWise]_output: 40395622
+(Unnamed Layer* 489) [Activation]_output: 3c010204
+(Unnamed Layer* 490) [ElementWise]_output: 3c810204
+(Unnamed Layer* 491) [ElementWise]_output: 3c010204
+493_nn.GELU_output: 3d067daa
+(Unnamed Layer* 493) [Constant]_output: 3afc8cfc
+(Unnamed Layer* 494) [Matrix Multiply]_output: 4034b2da
+(Unnamed Layer* 495) [Constant]_output: 3ba4a9be
+497_trt.addLinear_output: 4034de59
+498_nn.Sum_output: 4038f1c4
+499_trt.LayerNorm_output: 3dfa3cd4
+(Unnamed Layer* 499) [Constant]_output: 3b059841
+(Unnamed Layer* 500) [Matrix Multiply]_output: 3d2d9638
+(Unnamed Layer* 501) [Constant]_output: 3c0ad932
+503_trt.addLinear_output: 3d2cf48c
+504_trt.Shuffle.att_q_view_transpose_output: 3d2cf48c
+(Unnamed Layer* 504) [Constant]_output: 3ad51d48
+(Unnamed Layer* 505) [Matrix Multiply]_output: 3d1383f7
+(Unnamed Layer* 506) [Constant]_output: 3941dd5a
+508_trt.addLinear_output: 3d139c19
+509_trt.Shuffle.att_k_view_and transpose_output: 3d139c19
+(Unnamed Layer* 509) [Constant]_output: 3ab0c70d
+(Unnamed Layer* 510) [Matrix Multiply]_output: 3ce9f7ad
+(Unnamed Layer* 511) [Constant]_output: 3b210a83
+513_trt.addLinear_output: 3cea6caa
+514_trt.Shuffle.att_v_view_and transpose_output: 3cea6caa
+515_torch.matmul.q_mul_k_output: 3ee113cc
+516_Scale_output: 3d6113cc
+517_nn.Softmax[dim=4]_output: 3bba05d0
+518_torch.matmul.matmul(p_attn, value)_output: 3c9e3539
+519_trt.Shuffle.attn_transpose_and_reshape_output: 3c9e3539
+(Unnamed Layer* 519) [Constant]_output: 3a9678ae
+(Unnamed Layer* 520) [Matrix Multiply]_output: 3c8d6ad2
+(Unnamed Layer* 521) [Constant]_output: 3aaa88e9
+523_trt.addLinear_output: 3c8e8be1
+524_nn.Sum_output: 3dfa261a
+525_trt.LayerNorm_output: 3ddc5263
+(Unnamed Layer* 525) [Constant]_output: 3ac19d01
+(Unnamed Layer* 526) [Matrix Multiply]_output: 3d301470
+(Unnamed Layer* 527) [Constant]_output: 3b47dceb
+529_trt.addLinear_output: 3d31d05f
+(Unnamed Layer* 529) [Constant]_output: 3cc18306
+(Unnamed Layer* 530) [Constant]_output: 39b89844
+(Unnamed Layer* 531) [Constant]_output: 3bcddde6
+(Unnamed Layer* 532) [Constant]_output: 3c010204
+(Unnamed Layer* 533) [Constant]_output: 3b810204
+(Unnamed Layer* 534) [ElementWise]_output: 3fbc2c38
+(Unnamed Layer* 535) [ElementWise]_output: 3d86a055
+(Unnamed Layer* 536) [ElementWise]_output: 3e078894
+(Unnamed Layer* 537) [ElementWise]_output: 3dd847bb
+(Unnamed Layer* 538) [Activation]_output: 3c010204
+(Unnamed Layer* 539) [ElementWise]_output: 3c8070e2
+(Unnamed Layer* 540) [ElementWise]_output: 3c0070e2
+542_nn.GELU_output: 3ca6ed69
+(Unnamed Layer* 542) [Constant]_output: 3ad72dcf
+(Unnamed Layer* 543) [Matrix Multiply]_output: 3f0b6da8
+(Unnamed Layer* 544) [Constant]_output: 3c1699d0
+546_trt.addLinear_output: 3f0bcb31
+547_nn.Sum_output: 3f2790c1
+548_trt.LayerNorm_output: 3dff9dd3
+(Unnamed Layer* 548) [Constant]_output: 3b2c976e
+(Unnamed Layer* 549) [Matrix Multiply]_output: 3d4dfffa
+(Unnamed Layer* 550) [Constant]_output: 3bd65531
+552_trt.addLinear_output: 3d4bfc9f
+553_trt.Shuffle.att_q_view_transpose_output: 3d4bfc9f
+(Unnamed Layer* 553) [Constant]_output: 3ae12ca3
+(Unnamed Layer* 554) [Matrix Multiply]_output: 3d18645c
+(Unnamed Layer* 555) [Constant]_output: 3988e211
+557_trt.addLinear_output: 3d183631
+558_trt.Shuffle.att_k_view_and transpose_output: 3d183631
+(Unnamed Layer* 558) [Constant]_output: 3ab3ad4a
+(Unnamed Layer* 559) [Matrix Multiply]_output: 3cfcb713
+(Unnamed Layer* 560) [Constant]_output: 3a805c73
+562_trt.addLinear_output: 3cfcc9ce
+563_trt.Shuffle.att_v_view_and transpose_output: 3cfcc9ce
+564_torch.matmul.q_mul_k_output: 3f147305
+565_Scale_output: 3d947305
+566_nn.Softmax[dim=4]_output: 3bb62efa
+567_torch.matmul.matmul(p_attn, value)_output: 3cb4fc44
+568_trt.Shuffle.attn_transpose_and_reshape_output: 3cb4fc44
+(Unnamed Layer* 568) [Constant]_output: 3a9e97b0
+(Unnamed Layer* 569) [Matrix Multiply]_output: 3cace7e3
+(Unnamed Layer* 570) [Constant]_output: 3a8e0459
+572_trt.addLinear_output: 3cacb0e7
+573_nn.Sum_output: 3dfcdf42
+574_trt.LayerNorm_output: 3de257f2
+(Unnamed Layer* 574) [Constant]_output: 3aa71eb3
+(Unnamed Layer* 575) [Matrix Multiply]_output: 3d26902f
+(Unnamed Layer* 576) [Constant]_output: 3b91895d
+578_trt.addLinear_output: 3d2a8576
+(Unnamed Layer* 578) [Constant]_output: 3cc18306
+(Unnamed Layer* 579) [Constant]_output: 39b89844
+(Unnamed Layer* 580) [Constant]_output: 3bcddde6
+(Unnamed Layer* 581) [Constant]_output: 3c010204
+(Unnamed Layer* 582) [Constant]_output: 3b810204
+(Unnamed Layer* 583) [ElementWise]_output: 3f95593c
+(Unnamed Layer* 584) [ElementWise]_output: 3d55b32a
+(Unnamed Layer* 585) [ElementWise]_output: 3dc1985d
+(Unnamed Layer* 586) [ElementWise]_output: 3d9a7773
+(Unnamed Layer* 587) [Activation]_output: 3c010204
+(Unnamed Layer* 588) [ElementWise]_output: 3c810204
+(Unnamed Layer* 589) [ElementWise]_output: 3c010204
+591_nn.GELU_output: 3d0bcf5d
+(Unnamed Layer* 591) [Constant]_output: 3aa37b0b
+(Unnamed Layer* 592) [Matrix Multiply]_output: 3d6a4d51
+(Unnamed Layer* 593) [Constant]_output: 3b93ddfc
+595_trt.addLinear_output: 3d57c11d
+596_nn.Sum_output: 3dd1fe85
+597_trt.LayerNorm_output: 3d91be79
+(Unnamed Layer* 597) [Constant]_output: 3b4a1916
+(Unnamed Layer* 598) [Matrix Multiply]_output: 3e5480b4
+(Unnamed Layer* 599) [Constant]_output: 3c93b9c6
+601_trt.addLinear_output: 3e420d53
+(Unnamed Layer* 601) [Constant]_output: 3cc18306
+(Unnamed Layer* 602) [Constant]_output: 39b89844
+(Unnamed Layer* 603) [Constant]_output: 3bcddde6
+(Unnamed Layer* 604) [Constant]_output: 3c010204
+(Unnamed Layer* 605) [Constant]_output: 3b810204
+(Unnamed Layer* 606) [ElementWise]_output: 42dbc53d
+(Unnamed Layer* 607) [ElementWise]_output: 409d3b8b
+(Unnamed Layer* 608) [ElementWise]_output: 40a3948d
+(Unnamed Layer* 609) [ElementWise]_output: 408284a7
+(Unnamed Layer* 610) [Activation]_output: 3c010204
+(Unnamed Layer* 611) [ElementWise]_output: 3c810204
+(Unnamed Layer* 612) [ElementWise]_output: 3c010204
+614_nn.GELU_output: 3d31cd42
+615_trt.LayerNorm_output: 3d0e590b
+(Unnamed Layer* 615) [Constant]_output: 3af44094
+(Unnamed Layer* 616) [Matrix Multiply]_output: 3d6ceffb
+(Unnamed Layer* 617) [Constant]_output: 3ca087f8
+619_trt.addLinear_output: 3d805c58

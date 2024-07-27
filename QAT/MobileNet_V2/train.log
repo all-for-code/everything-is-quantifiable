@@ -1,0 +1,904 @@
+Epoch 1/15
+----------
+/opt/conda/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:143: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+
+--- phase : train ---
+
+Iteration: 1/391, Loss: 1371.6820068359375, LR: 0.001 
+Iteration: 11/391, Loss: 1362.5419921875, LR: 0.001 
+Iteration: 21/391, Loss: 1351.2030029296875, LR: 0.001 
+Iteration: 31/391, Loss: 1357.3663330078125, LR: 0.001 
+Iteration: 41/391, Loss: 1337.529296875, LR: 0.001 
+Iteration: 51/391, Loss: 1343.14794921875, LR: 0.001 
+Iteration: 61/391, Loss: 1326.7413330078125, LR: 0.001 
+Iteration: 71/391, Loss: 1324.365478515625, LR: 0.001 
+Iteration: 81/391, Loss: 1317.37646484375, LR: 0.001 
+Iteration: 91/391, Loss: 1305.476318359375, LR: 0.001 
+Iteration: 101/391, Loss: 1298.9918212890625, LR: 0.001 
+Iteration: 111/391, Loss: 1291.184814453125, LR: 0.001 
+Iteration: 121/391, Loss: 1281.721923828125, LR: 0.001 
+Iteration: 131/391, Loss: 1276.4696044921875, LR: 0.001 
+Iteration: 141/391, Loss: 1248.9359130859375, LR: 0.001 
+Iteration: 151/391, Loss: 1240.985107421875, LR: 0.001 
+Iteration: 161/391, Loss: 1223.911865234375, LR: 0.001 
+Iteration: 171/391, Loss: 1206.9493408203125, LR: 0.001 
+Iteration: 181/391, Loss: 1218.86279296875, LR: 0.001 
+Iteration: 191/391, Loss: 1193.8096923828125, LR: 0.001 
+Iteration: 201/391, Loss: 1181.3515625, LR: 0.001 
+Iteration: 211/391, Loss: 1164.2916259765625, LR: 0.001 
+Iteration: 221/391, Loss: 1157.1533203125, LR: 0.001 
+Iteration: 231/391, Loss: 1140.537353515625, LR: 0.001 
+Iteration: 241/391, Loss: 1130.2213134765625, LR: 0.001 
+Iteration: 251/391, Loss: 1086.84765625, LR: 0.001 
+Iteration: 261/391, Loss: 1109.06396484375, LR: 0.001 
+Iteration: 271/391, Loss: 1078.416259765625, LR: 0.001 
+Iteration: 281/391, Loss: 1052.5341796875, LR: 0.001 
+Iteration: 291/391, Loss: 1035.51806640625, LR: 0.001 
+Iteration: 301/391, Loss: 1067.05078125, LR: 0.001 
+Iteration: 311/391, Loss: 1039.93310546875, LR: 0.001 
+Iteration: 321/391, Loss: 1017.6732177734375, LR: 0.001 
+Iteration: 331/391, Loss: 1004.1737060546875, LR: 0.001 
+Iteration: 341/391, Loss: 989.078125, LR: 0.001 
+Iteration: 351/391, Loss: 973.1779174804688, LR: 0.001 
+Iteration: 361/391, Loss: 958.8973999023438, LR: 0.001 
+Iteration: 371/391, Loss: 956.3521728515625, LR: 0.001 
+Iteration: 381/391, Loss: 950.361083984375, LR: 0.001 
+Iteration: 391/391, Loss: 594.618034362793, LR: 0.001 
+
+--- phase : val ---
+
+Iteration: 1/79, Loss: 457.5141906738281, LR: 0.001 
+Iteration: 11/79, Loss: 469.23980712890625, LR: 0.001 
+Iteration: 21/79, Loss: 457.71978759765625, LR: 0.001 
+Iteration: 31/79, Loss: 453.9692687988281, LR: 0.001 
+Iteration: 41/79, Loss: 470.39825439453125, LR: 0.001 
+Iteration: 51/79, Loss: 452.4004211425781, LR: 0.001 
+Iteration: 61/79, Loss: 457.6769714355469, LR: 0.001 
+Iteration: 71/79, Loss: 451.2374572753906, LR: 0.001 
+Train Loss: 4.5823 Acc: 0.1494
+Val Loss: 3.5490 Acc: 0.3389
+Best Val Accuracy: 0.33890000000000003
+
+Epoch 2/15
+----------
+
+--- phase : train ---
+
+Iteration: 1/391, Loss: 933.3502807617188, LR: 0.001 
+Iteration: 11/391, Loss: 916.0049438476562, LR: 0.001 
+Iteration: 21/391, Loss: 933.8966674804688, LR: 0.001 
+Iteration: 31/391, Loss: 894.1207275390625, LR: 0.001 
+Iteration: 41/391, Loss: 887.8919677734375, LR: 0.001 
+Iteration: 51/391, Loss: 859.3793334960938, LR: 0.001 
+Iteration: 61/391, Loss: 849.6946411132812, LR: 0.001 
+Iteration: 71/391, Loss: 875.9849243164062, LR: 0.001 
+Iteration: 81/391, Loss: 832.63232421875, LR: 0.001 
+Iteration: 91/391, Loss: 866.313232421875, LR: 0.001 
+Iteration: 101/391, Loss: 868.7597045898438, LR: 0.001 
+Iteration: 111/391, Loss: 815.931396484375, LR: 0.001 
+Iteration: 121/391, Loss: 851.9724731445312, LR: 0.001 
+Iteration: 131/391, Loss: 835.0993041992188, LR: 0.001 
+Iteration: 141/391, Loss: 831.9141235351562, LR: 0.001 
+Iteration: 151/391, Loss: 801.1083374023438, LR: 0.001 
+Iteration: 161/391, Loss: 794.13671875, LR: 0.001 
+Iteration: 171/391, Loss: 793.5756225585938, LR: 0.001 
+Iteration: 181/391, Loss: 761.7183837890625, LR: 0.001 
+Iteration: 191/391, Loss: 785.9115600585938, LR: 0.001 
+Iteration: 201/391, Loss: 762.2194213867188, LR: 0.001 
+Iteration: 211/391, Loss: 753.0574951171875, LR: 0.001 
+Iteration: 221/391, Loss: 741.1466064453125, LR: 0.001 
+Iteration: 231/391, Loss: 715.1769409179688, LR: 0.001 
+Iteration: 241/391, Loss: 758.6398315429688, LR: 0.001 
+Iteration: 251/391, Loss: 740.8309936523438, LR: 0.001 
+Iteration: 261/391, Loss: 751.3179931640625, LR: 0.001 
+Iteration: 271/391, Loss: 721.9046020507812, LR: 0.001 
+Iteration: 281/391, Loss: 712.2673950195312, LR: 0.001 
+Iteration: 291/391, Loss: 717.7190551757812, LR: 0.001 
+Iteration: 301/391, Loss: 695.31103515625, LR: 0.001 
+Iteration: 311/391, Loss: 686.8086547851562, LR: 0.001 
+Iteration: 321/391, Loss: 718.7965087890625, LR: 0.001 
+Iteration: 331/391, Loss: 676.4923706054688, LR: 0.001 
+Iteration: 341/391, Loss: 678.774169921875, LR: 0.001 
+Iteration: 351/391, Loss: 676.9525756835938, LR: 0.001 
+Iteration: 361/391, Loss: 685.1904296875, LR: 0.001 
+Iteration: 371/391, Loss: 739.0458374023438, LR: 0.001 
+Iteration: 381/391, Loss: 674.6109008789062, LR: 0.001 
+Iteration: 391/391, Loss: 433.1004333496094, LR: 0.001 
+
+--- phase : val ---
+
+Iteration: 1/79, Loss: 305.10626220703125, LR: 0.001 
+Iteration: 11/79, Loss: 307.16943359375, LR: 0.001 
+Iteration: 21/79, Loss: 316.4560546875, LR: 0.001 
+Iteration: 31/79, Loss: 335.3396911621094, LR: 0.001 
+Iteration: 41/79, Loss: 328.4458312988281, LR: 0.001 
+Iteration: 51/79, Loss: 302.81622314453125, LR: 0.001 
+Iteration: 61/79, Loss: 317.2422180175781, LR: 0.001 
+Iteration: 71/79, Loss: 293.0187072753906, LR: 0.001 
+Train Loss: 3.0660 Acc: 0.3912
+Val Loss: 2.4889 Acc: 0.5022
+Best Val Accuracy: 0.5022
+
+Epoch 3/15
+----------
+
+--- phase : train ---
+
+Iteration: 1/391, Loss: 657.3993530273438, LR: 0.001 
+Iteration: 11/391, Loss: 649.1494750976562, LR: 0.001 
+Iteration: 21/391, Loss: 639.6736450195312, LR: 0.001 
+Iteration: 31/391, Loss: 696.227783203125, LR: 0.001 
+Iteration: 41/391, Loss: 643.3467407226562, LR: 0.001 
+Iteration: 51/391, Loss: 626.6565551757812, LR: 0.001 
+Iteration: 61/391, Loss: 637.8781127929688, LR: 0.001 
+Iteration: 71/391, Loss: 678.2457275390625, LR: 0.001 
+Iteration: 81/391, Loss: 650.0687255859375, LR: 0.001 
+Iteration: 91/391, Loss: 634.9857788085938, LR: 0.001 
+Iteration: 101/391, Loss: 616.9566040039062, LR: 0.001 
+Iteration: 111/391, Loss: 624.377197265625, LR: 0.001 
+Iteration: 121/391, Loss: 594.7781982421875, LR: 0.001 
+Iteration: 131/391, Loss: 619.1608276367188, LR: 0.001 
+Iteration: 141/391, Loss: 655.7615356445312, LR: 0.001 
+Iteration: 151/391, Loss: 620.7679443359375, LR: 0.001 
+Iteration: 161/391, Loss: 607.06103515625, LR: 0.001 
+Iteration: 171/391, Loss: 594.2616577148438, LR: 0.001 
+Iteration: 181/391, Loss: 610.548828125, LR: 0.001 
+Iteration: 191/391, Loss: 608.5116577148438, LR: 0.001 
+Iteration: 201/391, Loss: 578.333740234375, LR: 0.001 
+Iteration: 211/391, Loss: 595.834228515625, LR: 0.001 
+Iteration: 221/391, Loss: 587.3565063476562, LR: 0.001 
+Iteration: 231/391, Loss: 563.61669921875, LR: 0.001 
+Iteration: 241/391, Loss: 579.3445434570312, LR: 0.001 
+Iteration: 251/391, Loss: 601.6011962890625, LR: 0.001 
+Iteration: 261/391, Loss: 582.3468627929688, LR: 0.001 
+Iteration: 271/391, Loss: 591.8860473632812, LR: 0.001 
+Iteration: 281/391, Loss: 580.950927734375, LR: 0.001 
+Iteration: 291/391, Loss: 545.0737915039062, LR: 0.001 
+Iteration: 301/391, Loss: 558.0941162109375, LR: 0.001 
+Iteration: 311/391, Loss: 554.0472412109375, LR: 0.001 
+Iteration: 321/391, Loss: 558.049560546875, LR: 0.001 
+Iteration: 331/391, Loss: 554.4963989257812, LR: 0.001 
+Iteration: 341/391, Loss: 565.3737182617188, LR: 0.001 
+Iteration: 351/391, Loss: 576.4013671875, LR: 0.001 
+Iteration: 361/391, Loss: 526.974609375, LR: 0.001 
+Iteration: 371/391, Loss: 532.9700927734375, LR: 0.001 
+Iteration: 381/391, Loss: 577.3929443359375, LR: 0.001 
+Iteration: 391/391, Loss: 346.4117431640625, LR: 0.001 
+
+--- phase : val ---
+
+Iteration: 1/79, Loss: 235.47488403320312, LR: 0.001 
+Iteration: 11/79, Loss: 265.5486755371094, LR: 0.001 
+Iteration: 21/79, Loss: 278.39715576171875, LR: 0.001 
+Iteration: 31/79, Loss: 217.0634307861328, LR: 0.001 
+Iteration: 41/79, Loss: 252.1265411376953, LR: 0.001 
+Iteration: 51/79, Loss: 274.31890869140625, LR: 0.001 
+Iteration: 61/79, Loss: 257.80023193359375, LR: 0.001 
+Iteration: 71/79, Loss: 254.29949951171875, LR: 0.001 
+Train Loss: 2.3320 Acc: 0.5109
+Val Loss: 1.9813 Acc: 0.5728
+Best Val Accuracy: 0.5728
+
+Epoch 4/15
+----------
+
+--- phase : train ---
+
+Iteration: 1/391, Loss: 531.4489135742188, LR: 0.001 
+Iteration: 11/391, Loss: 542.492431640625, LR: 0.001 
+Iteration: 21/391, Loss: 594.5506591796875, LR: 0.001 
+Iteration: 31/391, Loss: 530.7218627929688, LR: 0.001 
+Iteration: 41/391, Loss: 504.2875061035156, LR: 0.001 
+Iteration: 51/391, Loss: 506.5011901855469, LR: 0.001 
+Iteration: 61/391, Loss: 519.1674194335938, LR: 0.001 
+Iteration: 71/391, Loss: 507.789306640625, LR: 0.001 
+Iteration: 81/391, Loss: 505.0749816894531, LR: 0.001 
+Iteration: 91/391, Loss: 525.85009765625, LR: 0.001 
+Iteration: 101/391, Loss: 520.1909790039062, LR: 0.001 
+Iteration: 111/391, Loss: 479.4794006347656, LR: 0.001 
+Iteration: 121/391, Loss: 529.5392456054688, LR: 0.001 
+Iteration: 131/391, Loss: 489.1822204589844, LR: 0.001 
+Iteration: 141/391, Loss: 504.4853515625, LR: 0.001 
+Iteration: 151/391, Loss: 476.2560729980469, LR: 0.001 
+Iteration: 161/391, Loss: 461.760986328125, LR: 0.001 
+Iteration: 171/391, Loss: 507.0632629394531, LR: 0.001 
+Iteration: 181/391, Loss: 474.4327392578125, LR: 0.001 
+Iteration: 191/391, Loss: 485.1723937988281, LR: 0.001 
+Iteration: 201/391, Loss: 487.8089294433594, LR: 0.001 
+Iteration: 211/391, Loss: 483.2833251953125, LR: 0.001 
+Iteration: 221/391, Loss: 507.42755126953125, LR: 0.001 
+Iteration: 231/391, Loss: 467.40374755859375, LR: 0.001 
+Iteration: 241/391, Loss: 483.2142639160156, LR: 0.001 
+Iteration: 251/391, Loss: 506.17852783203125, LR: 0.001 
+Iteration: 261/391, Loss: 497.3726806640625, LR: 0.001 
+Iteration: 271/391, Loss: 474.94464111328125, LR: 0.001 
+Iteration: 281/391, Loss: 504.6710205078125, LR: 0.001 
+Iteration: 291/391, Loss: 459.2108154296875, LR: 0.001 
+Iteration: 301/391, Loss: 490.9866638183594, LR: 0.001 
+Iteration: 311/391, Loss: 509.9073791503906, LR: 0.001 
+Iteration: 321/391, Loss: 523.1941528320312, LR: 0.001 
+Iteration: 331/391, Loss: 470.5183410644531, LR: 0.001 
+Iteration: 341/391, Loss: 471.65899658203125, LR: 0.001 
+Iteration: 351/391, Loss: 478.150146484375, LR: 0.001 
+Iteration: 361/391, Loss: 494.5685119628906, LR: 0.001 
+Iteration: 371/391, Loss: 461.26806640625, LR: 0.001 
+Iteration: 381/391, Loss: 493.70404052734375, LR: 0.001 
+Iteration: 391/391, Loss: 300.35531997680664, LR: 0.001 
+
+--- phase : val ---
+
+Iteration: 1/79, Loss: 240.74929809570312, LR: 0.001 
+Iteration: 11/79, Loss: 210.03268432617188, LR: 0.001 
+Iteration: 21/79, Loss: 203.37408447265625, LR: 0.001 
+Iteration: 31/79, Loss: 207.62196350097656, LR: 0.001 
+Iteration: 41/79, Loss: 209.16416931152344, LR: 0.001 
+Iteration: 51/79, Loss: 210.86929321289062, LR: 0.001 
+Iteration: 61/79, Loss: 196.1839599609375, LR: 0.001 
+Iteration: 71/79, Loss: 204.08921813964844, LR: 0.001 
+Train Loss: 1.9313 Acc: 0.5742
+Val Loss: 1.6999 Acc: 0.6172
+Best Val Accuracy: 0.6172000000000001
+
+Epoch 5/15
+----------
+
+--- phase : train ---
+
+Iteration: 1/391, Loss: 460.1424865722656, LR: 0.001 
+Iteration: 11/391, Loss: 438.4080505371094, LR: 0.001 
+Iteration: 21/391, Loss: 478.1885681152344, LR: 0.001 
+Iteration: 31/391, Loss: 435.20904541015625, LR: 0.001 
+Iteration: 41/391, Loss: 462.3369140625, LR: 0.001 
+Iteration: 51/391, Loss: 414.1292724609375, LR: 0.001 
+Iteration: 61/391, Loss: 466.4773864746094, LR: 0.001 
+Iteration: 71/391, Loss: 441.2025146484375, LR: 0.001 
+Iteration: 81/391, Loss: 441.3381652832031, LR: 0.001 
+Iteration: 91/391, Loss: 438.5002136230469, LR: 0.001 
+Iteration: 101/391, Loss: 473.070556640625, LR: 0.001 
+Iteration: 111/391, Loss: 435.2506103515625, LR: 0.001 
+Iteration: 121/391, Loss: 425.911865234375, LR: 0.001 
+Iteration: 131/391, Loss: 456.9454345703125, LR: 0.001 
+Iteration: 141/391, Loss: 452.46514892578125, LR: 0.001 
+Iteration: 151/391, Loss: 452.3872375488281, LR: 0.001 
+Iteration: 161/391, Loss: 435.8155517578125, LR: 0.001 
+Iteration: 171/391, Loss: 432.2384033203125, LR: 0.001 
+Iteration: 181/391, Loss: 435.69097900390625, LR: 0.001 
+Iteration: 191/391, Loss: 408.1934509277344, LR: 0.001 
+Iteration: 201/391, Loss: 393.5183410644531, LR: 0.001 
+Iteration: 211/391, Loss: 457.0621032714844, LR: 0.001 
+Iteration: 221/391, Loss: 421.68450927734375, LR: 0.001 
+Iteration: 231/391, Loss: 417.36968994140625, LR: 0.001 
+Iteration: 241/391, Loss: 431.5499267578125, LR: 0.001 
+Iteration: 251/391, Loss: 416.267333984375, LR: 0.001 
+Iteration: 261/391, Loss: 415.4386291503906, LR: 0.001 
+Iteration: 271/391, Loss: 400.25823974609375, LR: 0.001 
+Iteration: 281/391, Loss: 436.80712890625, LR: 0.001 
+Iteration: 291/391, Loss: 428.8660888671875, LR: 0.001 
+Iteration: 301/391, Loss: 430.0673522949219, LR: 0.001 
+Iteration: 311/391, Loss: 421.0834045410156, LR: 0.001 
+Iteration: 321/391, Loss: 413.4001770019531, LR: 0.001 
+Iteration: 331/391, Loss: 433.1878356933594, LR: 0.001 
+Iteration: 341/391, Loss: 409.3612060546875, LR: 0.001 
+Iteration: 351/391, Loss: 393.18658447265625, LR: 0.001 
+Iteration: 361/391, Loss: 394.5689697265625, LR: 0.001 
+Iteration: 371/391, Loss: 423.1729736328125, LR: 0.001 
+Iteration: 381/391, Loss: 412.83831787109375, LR: 0.001 
+Iteration: 391/391, Loss: 249.90558624267578, LR: 0.001 
+
+--- phase : val ---
+
+Iteration: 1/79, Loss: 195.77488708496094, LR: 0.001 
+Iteration: 11/79, Loss: 217.41571044921875, LR: 0.001 
+Iteration: 21/79, Loss: 188.15423583984375, LR: 0.001 
+Iteration: 31/79, Loss: 219.54446411132812, LR: 0.001 
+Iteration: 41/79, Loss: 190.18763732910156, LR: 0.001 
+Iteration: 51/79, Loss: 209.23854064941406, LR: 0.001 
+Iteration: 61/79, Loss: 172.091796875, LR: 0.001 
+Iteration: 71/79, Loss: 183.8769073486328, LR: 0.001 
+Train Loss: 1.6826 Acc: 0.6172
+Val Loss: 1.5299 Acc: 0.6432
+Best Val Accuracy: 0.6432
+
+Epoch 6/15
+----------
+
+--- phase : train ---
+
+Iteration: 1/391, Loss: 430.2529296875, LR: 0.001 
+Iteration: 11/391, Loss: 416.4261169433594, LR: 0.001 
+Iteration: 21/391, Loss: 406.7667541503906, LR: 0.001 
+Iteration: 31/391, Loss: 403.9749755859375, LR: 0.001 
+Iteration: 41/391, Loss: 410.3266906738281, LR: 0.001 
+Iteration: 51/391, Loss: 415.1217346191406, LR: 0.001 
+Iteration: 61/391, Loss: 395.0321350097656, LR: 0.001 
+Iteration: 71/391, Loss: 422.5647888183594, LR: 0.001 
+Iteration: 81/391, Loss: 412.01043701171875, LR: 0.001 
+Iteration: 91/391, Loss: 360.8400573730469, LR: 0.001 
+Iteration: 101/391, Loss: 377.50970458984375, LR: 0.001 
+Iteration: 111/391, Loss: 442.0666809082031, LR: 0.001 
+Iteration: 121/391, Loss: 466.8439025878906, LR: 0.001 
+Iteration: 131/391, Loss: 360.3836364746094, LR: 0.001 
+Iteration: 141/391, Loss: 365.5443115234375, LR: 0.001 
+Iteration: 151/391, Loss: 406.6473388671875, LR: 0.001 
+Iteration: 161/391, Loss: 372.02252197265625, LR: 0.001 
+Iteration: 171/391, Loss: 410.9719543457031, LR: 0.001 
+Iteration: 181/391, Loss: 393.1181335449219, LR: 0.001 
+Iteration: 191/391, Loss: 418.1961364746094, LR: 0.001 
+Iteration: 201/391, Loss: 350.15460205078125, LR: 0.001 
+Iteration: 211/391, Loss: 435.0526123046875, LR: 0.001 
+Iteration: 221/391, Loss: 368.02288818359375, LR: 0.001 
+Iteration: 231/391, Loss: 352.04962158203125, LR: 0.001 
+Iteration: 241/391, Loss: 409.1672668457031, LR: 0.001 
+Iteration: 251/391, Loss: 384.114501953125, LR: 0.001 
+Iteration: 261/391, Loss: 376.0607604980469, LR: 0.001 
+Iteration: 271/391, Loss: 339.3887023925781, LR: 0.001 
+Iteration: 281/391, Loss: 411.8087463378906, LR: 0.001 
+Iteration: 291/391, Loss: 407.073486328125, LR: 0.001 
+Iteration: 301/391, Loss: 428.3623962402344, LR: 0.001 
+Iteration: 311/391, Loss: 373.0773010253906, LR: 0.001 
+Iteration: 321/391, Loss: 364.98663330078125, LR: 0.001 
+Iteration: 331/391, Loss: 400.5578918457031, LR: 0.001 
+Iteration: 341/391, Loss: 363.3451232910156, LR: 0.001 
+Iteration: 351/391, Loss: 373.7706604003906, LR: 0.001 
+Iteration: 361/391, Loss: 355.7220764160156, LR: 0.001 
+Iteration: 371/391, Loss: 358.6788024902344, LR: 0.001 
+Iteration: 381/391, Loss: 332.7750244140625, LR: 0.001 
+Iteration: 391/391, Loss: 236.24998092651367, LR: 0.001 
+
+--- phase : val ---
+
+Iteration: 1/79, Loss: 203.02529907226562, LR: 0.001 
+Iteration: 11/79, Loss: 146.1537322998047, LR: 0.001 
+Iteration: 21/79, Loss: 175.7793426513672, LR: 0.001 
+Iteration: 31/79, Loss: 187.31031799316406, LR: 0.001 
+Iteration: 41/79, Loss: 211.74893188476562, LR: 0.001 
+Iteration: 51/79, Loss: 175.2333984375, LR: 0.001 
+Iteration: 61/79, Loss: 181.79026794433594, LR: 0.001 
+Iteration: 71/79, Loss: 187.2687225341797, LR: 0.001 
+Train Loss: 1.5184 Acc: 0.6448
+Val Loss: 1.4065 Acc: 0.6612
+Best Val Accuracy: 0.6612
+
+Epoch 7/15
+----------
+
+--- phase : train ---
+
+Iteration: 1/391, Loss: 349.92425537109375, LR: 0.0001 
+Iteration: 11/391, Loss: 367.4068908691406, LR: 0.0001 
+Iteration: 21/391, Loss: 352.8480529785156, LR: 0.0001 
+Iteration: 31/391, Loss: 363.9506530761719, LR: 0.0001 
+Iteration: 41/391, Loss: 388.8414611816406, LR: 0.0001 
+Iteration: 51/391, Loss: 348.0678405761719, LR: 0.0001 
+Iteration: 61/391, Loss: 350.0608825683594, LR: 0.0001 
+Iteration: 71/391, Loss: 389.86077880859375, LR: 0.0001 
+Iteration: 81/391, Loss: 386.9892578125, LR: 0.0001 
+Iteration: 91/391, Loss: 331.06463623046875, LR: 0.0001 
+Iteration: 101/391, Loss: 319.0520324707031, LR: 0.0001 
+Iteration: 111/391, Loss: 382.136962890625, LR: 0.0001 
+Iteration: 121/391, Loss: 374.9151916503906, LR: 0.0001 
+Iteration: 131/391, Loss: 376.38427734375, LR: 0.0001 
+Iteration: 141/391, Loss: 356.4394836425781, LR: 0.0001 
+Iteration: 151/391, Loss: 365.15948486328125, LR: 0.0001 
+Iteration: 161/391, Loss: 358.7450256347656, LR: 0.0001 
+Iteration: 171/391, Loss: 364.426025390625, LR: 0.0001 
+Iteration: 181/391, Loss: 353.2602233886719, LR: 0.0001 
+Iteration: 191/391, Loss: 346.9197082519531, LR: 0.0001 
+Iteration: 201/391, Loss: 357.8197021484375, LR: 0.0001 
+Iteration: 211/391, Loss: 344.13330078125, LR: 0.0001 
+Iteration: 221/391, Loss: 366.6310729980469, LR: 0.0001 
+Iteration: 231/391, Loss: 375.513671875, LR: 0.0001 
+Iteration: 241/391, Loss: 383.3129577636719, LR: 0.0001 
+Iteration: 251/391, Loss: 392.8439025878906, LR: 0.0001 
+Iteration: 261/391, Loss: 394.20965576171875, LR: 0.0001 
+Iteration: 271/391, Loss: 372.3503723144531, LR: 0.0001 
+Iteration: 281/391, Loss: 354.9944152832031, LR: 0.0001 
+Iteration: 291/391, Loss: 338.6169738769531, LR: 0.0001 
+Iteration: 301/391, Loss: 360.3025817871094, LR: 0.0001 
+Iteration: 311/391, Loss: 330.7589111328125, LR: 0.0001 
+Iteration: 321/391, Loss: 353.5889892578125, LR: 0.0001 
+Iteration: 331/391, Loss: 397.550537109375, LR: 0.0001 
+Iteration: 341/391, Loss: 323.94537353515625, LR: 0.0001 
+Iteration: 351/391, Loss: 398.2412414550781, LR: 0.0001 
+Iteration: 361/391, Loss: 356.4170837402344, LR: 0.0001 
+Iteration: 371/391, Loss: 342.3129577636719, LR: 0.0001 
+Iteration: 381/391, Loss: 391.59783935546875, LR: 0.0001 
+Iteration: 391/391, Loss: 208.5002899169922, LR: 0.0001 
+
+--- phase : val ---
+
+Iteration: 1/79, Loss: 190.3859100341797, LR: 0.0001 
+Iteration: 11/79, Loss: 159.8760223388672, LR: 0.0001 
+Iteration: 21/79, Loss: 183.37225341796875, LR: 0.0001 
+Iteration: 31/79, Loss: 184.3673553466797, LR: 0.0001 
+Iteration: 41/79, Loss: 187.63262939453125, LR: 0.0001 
+Iteration: 51/79, Loss: 170.04666137695312, LR: 0.0001 
+Iteration: 61/79, Loss: 141.24176025390625, LR: 0.0001 
+Iteration: 71/79, Loss: 184.85418701171875, LR: 0.0001 
+Train Loss: 1.4144 Acc: 0.6663
+Val Loss: 1.3870 Acc: 0.6651
+Best Val Accuracy: 0.6651
+
+Epoch 8/15
+----------
+
+--- phase : train ---
+
+Iteration: 1/391, Loss: 386.0277404785156, LR: 0.0001 
+Iteration: 11/391, Loss: 351.2760314941406, LR: 0.0001 
+Iteration: 21/391, Loss: 350.6064147949219, LR: 0.0001 
+Iteration: 31/391, Loss: 365.071533203125, LR: 0.0001 
+Iteration: 41/391, Loss: 372.7594909667969, LR: 0.0001 
+Iteration: 51/391, Loss: 347.8941650390625, LR: 0.0001 
+Iteration: 61/391, Loss: 380.66204833984375, LR: 0.0001 
+Iteration: 71/391, Loss: 318.21502685546875, LR: 0.0001 
+Iteration: 81/391, Loss: 347.6700439453125, LR: 0.0001 
+Iteration: 91/391, Loss: 374.00146484375, LR: 0.0001 
+Iteration: 101/391, Loss: 363.59613037109375, LR: 0.0001 
+Iteration: 111/391, Loss: 347.49029541015625, LR: 0.0001 
+Iteration: 121/391, Loss: 372.25665283203125, LR: 0.0001 
+Iteration: 131/391, Loss: 366.5928955078125, LR: 0.0001 
+Iteration: 141/391, Loss: 343.0567321777344, LR: 0.0001 
+Iteration: 151/391, Loss: 340.2767639160156, LR: 0.0001 
+Iteration: 161/391, Loss: 360.0909729003906, LR: 0.0001 
+Iteration: 171/391, Loss: 360.1065979003906, LR: 0.0001 
+Iteration: 181/391, Loss: 348.3149108886719, LR: 0.0001 
+Iteration: 191/391, Loss: 379.2959899902344, LR: 0.0001 
+Iteration: 201/391, Loss: 312.64483642578125, LR: 0.0001 
+Iteration: 211/391, Loss: 348.07598876953125, LR: 0.0001 
+Iteration: 221/391, Loss: 351.87396240234375, LR: 0.0001 
+Iteration: 231/391, Loss: 336.88226318359375, LR: 0.0001 
+Iteration: 241/391, Loss: 323.87811279296875, LR: 0.0001 
+Iteration: 251/391, Loss: 350.3345642089844, LR: 0.0001 
+Iteration: 261/391, Loss: 356.60906982421875, LR: 0.0001 
+Iteration: 271/391, Loss: 346.3815002441406, LR: 0.0001 
+Iteration: 281/391, Loss: 378.6659240722656, LR: 0.0001 
+Iteration: 291/391, Loss: 371.5213623046875, LR: 0.0001 
+Iteration: 301/391, Loss: 326.9631042480469, LR: 0.0001 
+Iteration: 311/391, Loss: 342.05419921875, LR: 0.0001 
+Iteration: 321/391, Loss: 372.68743896484375, LR: 0.0001 
+Iteration: 331/391, Loss: 340.342041015625, LR: 0.0001 
+Iteration: 341/391, Loss: 329.8407287597656, LR: 0.0001 
+Iteration: 351/391, Loss: 358.48193359375, LR: 0.0001 
+Iteration: 361/391, Loss: 356.505859375, LR: 0.0001 
+Iteration: 371/391, Loss: 381.7084655761719, LR: 0.0001 
+Iteration: 381/391, Loss: 344.79254150390625, LR: 0.0001 
+Iteration: 391/391, Loss: 233.9731216430664, LR: 0.0001 
+
+--- phase : val ---
+
+Iteration: 1/79, Loss: 189.64747619628906, LR: 0.0001 
+Iteration: 11/79, Loss: 178.83143615722656, LR: 0.0001 
+Iteration: 21/79, Loss: 155.2512664794922, LR: 0.0001 
+Iteration: 31/79, Loss: 169.31956481933594, LR: 0.0001 
+Iteration: 41/79, Loss: 161.78634643554688, LR: 0.0001 
+Iteration: 51/79, Loss: 172.9065399169922, LR: 0.0001 
+Iteration: 61/79, Loss: 185.73611450195312, LR: 0.0001 
+Iteration: 71/79, Loss: 177.29721069335938, LR: 0.0001 
+Train Loss: 1.3977 Acc: 0.6693
+Val Loss: 1.3792 Acc: 0.6662
+Best Val Accuracy: 0.6662
+
+Epoch 9/15
+----------
+
+--- phase : train ---
+
+Iteration: 1/391, Loss: 340.33001708984375, LR: 0.0001 
+Iteration: 11/391, Loss: 359.5735778808594, LR: 0.0001 
+Iteration: 21/391, Loss: 355.8901062011719, LR: 0.0001 
+Iteration: 31/391, Loss: 389.53607177734375, LR: 0.0001 
+Iteration: 41/391, Loss: 354.50848388671875, LR: 0.0001 
+Iteration: 51/391, Loss: 322.0036926269531, LR: 0.0001 
+Iteration: 61/391, Loss: 358.7452697753906, LR: 0.0001 
+Iteration: 71/391, Loss: 400.6715393066406, LR: 0.0001 
+Iteration: 81/391, Loss: 324.96441650390625, LR: 0.0001 
+Iteration: 91/391, Loss: 373.6927185058594, LR: 0.0001 
+Iteration: 101/391, Loss: 371.00909423828125, LR: 0.0001 
+Iteration: 111/391, Loss: 383.1892395019531, LR: 0.0001 
+Iteration: 121/391, Loss: 348.69769287109375, LR: 0.0001 
+Iteration: 131/391, Loss: 367.5020446777344, LR: 0.0001 
+Iteration: 141/391, Loss: 349.3709716796875, LR: 0.0001 
+Iteration: 151/391, Loss: 361.7134704589844, LR: 0.0001 
+Iteration: 161/391, Loss: 361.37860107421875, LR: 0.0001 
+Iteration: 171/391, Loss: 307.8255920410156, LR: 0.0001 
+Iteration: 181/391, Loss: 354.2088928222656, LR: 0.0001 
+Iteration: 191/391, Loss: 364.184326171875, LR: 0.0001 
+Iteration: 201/391, Loss: 324.2041931152344, LR: 0.0001 
+Iteration: 211/391, Loss: 344.1357116699219, LR: 0.0001 
+Iteration: 221/391, Loss: 367.7729797363281, LR: 0.0001 
+Iteration: 231/391, Loss: 337.6235046386719, LR: 0.0001 
+Iteration: 241/391, Loss: 353.89947509765625, LR: 0.0001 
+Iteration: 251/391, Loss: 363.1930847167969, LR: 0.0001 
+Iteration: 261/391, Loss: 353.58367919921875, LR: 0.0001 
+Iteration: 271/391, Loss: 420.2859802246094, LR: 0.0001 
+Iteration: 281/391, Loss: 384.64581298828125, LR: 0.0001 
+Iteration: 291/391, Loss: 330.8609924316406, LR: 0.0001 
+Iteration: 301/391, Loss: 349.4488525390625, LR: 0.0001 
+Iteration: 311/391, Loss: 317.1643371582031, LR: 0.0001 
+Iteration: 321/391, Loss: 332.9108581542969, LR: 0.0001 
+Iteration: 331/391, Loss: 354.2659912109375, LR: 0.0001 
+Iteration: 341/391, Loss: 361.94775390625, LR: 0.0001 
+Iteration: 351/391, Loss: 351.1671142578125, LR: 0.0001 
+Iteration: 361/391, Loss: 387.1534423828125, LR: 0.0001 
+Iteration: 371/391, Loss: 341.0893249511719, LR: 0.0001 
+Iteration: 381/391, Loss: 341.1572265625, LR: 0.0001 
+Iteration: 391/391, Loss: 240.09405136108398, LR: 0.0001 
+
+--- phase : val ---
+
+Iteration: 1/79, Loss: 165.18922424316406, LR: 0.0001 
+Iteration: 11/79, Loss: 166.2541961669922, LR: 0.0001 
+Iteration: 21/79, Loss: 168.9658203125, LR: 0.0001 
+Iteration: 31/79, Loss: 164.31906127929688, LR: 0.0001 
+Iteration: 41/79, Loss: 203.30392456054688, LR: 0.0001 
+Iteration: 51/79, Loss: 173.0691375732422, LR: 0.0001 
+Iteration: 61/79, Loss: 174.22471618652344, LR: 0.0001 
+Iteration: 71/79, Loss: 198.08285522460938, LR: 0.0001 
+Train Loss: 1.3832 Acc: 0.6729
+Val Loss: 1.3681 Acc: 0.6690
+Best Val Accuracy: 0.669
+
+Epoch 10/15
+----------
+
+--- phase : train ---
+
+Iteration: 1/391, Loss: 363.1535339355469, LR: 0.0001 
+Iteration: 11/391, Loss: 320.239990234375, LR: 0.0001 
+Iteration: 21/391, Loss: 346.9773254394531, LR: 0.0001 
+Iteration: 31/391, Loss: 364.25970458984375, LR: 0.0001 
+Iteration: 41/391, Loss: 308.44122314453125, LR: 0.0001 
+Iteration: 51/391, Loss: 374.2215881347656, LR: 0.0001 
+Iteration: 61/391, Loss: 347.73004150390625, LR: 0.0001 
+Iteration: 71/391, Loss: 350.30029296875, LR: 0.0001 
+Iteration: 81/391, Loss: 334.8169860839844, LR: 0.0001 
+Iteration: 91/391, Loss: 363.9092712402344, LR: 0.0001 
+Iteration: 101/391, Loss: 299.90765380859375, LR: 0.0001 
+Iteration: 111/391, Loss: 336.3283386230469, LR: 0.0001 
+Iteration: 121/391, Loss: 369.9215087890625, LR: 0.0001 
+Iteration: 131/391, Loss: 363.575927734375, LR: 0.0001 
+Iteration: 141/391, Loss: 368.849365234375, LR: 0.0001 
+Iteration: 151/391, Loss: 346.50970458984375, LR: 0.0001 
+Iteration: 161/391, Loss: 370.18438720703125, LR: 0.0001 
+Iteration: 171/391, Loss: 373.4921875, LR: 0.0001 
+Iteration: 181/391, Loss: 368.0309753417969, LR: 0.0001 
+Iteration: 191/391, Loss: 329.088134765625, LR: 0.0001 
+Iteration: 201/391, Loss: 379.9021911621094, LR: 0.0001 
+Iteration: 211/391, Loss: 351.4100341796875, LR: 0.0001 
+Iteration: 221/391, Loss: 338.13079833984375, LR: 0.0001 
+Iteration: 231/391, Loss: 366.84698486328125, LR: 0.0001 
+Iteration: 241/391, Loss: 370.42999267578125, LR: 0.0001 
+Iteration: 251/391, Loss: 365.29437255859375, LR: 0.0001 
+Iteration: 261/391, Loss: 359.7707824707031, LR: 0.0001 
+Iteration: 271/391, Loss: 378.01226806640625, LR: 0.0001 
+Iteration: 281/391, Loss: 333.9337158203125, LR: 0.0001 
+Iteration: 291/391, Loss: 336.0672607421875, LR: 0.0001 
+Iteration: 301/391, Loss: 362.299560546875, LR: 0.0001 
+Iteration: 311/391, Loss: 362.9891052246094, LR: 0.0001 
+Iteration: 321/391, Loss: 351.8658142089844, LR: 0.0001 
+Iteration: 331/391, Loss: 331.8159484863281, LR: 0.0001 
+Iteration: 341/391, Loss: 332.67218017578125, LR: 0.0001 
+Iteration: 351/391, Loss: 356.8817443847656, LR: 0.0001 
+Iteration: 361/391, Loss: 359.54840087890625, LR: 0.0001 
+Iteration: 371/391, Loss: 354.2143249511719, LR: 0.0001 
+Iteration: 381/391, Loss: 330.3592529296875, LR: 0.0001 
+Iteration: 391/391, Loss: 217.3548126220703, LR: 0.0001 
+
+--- phase : val ---
+
+Iteration: 1/79, Loss: 169.74710083007812, LR: 0.0001 
+Iteration: 11/79, Loss: 166.8244171142578, LR: 0.0001 
+Iteration: 21/79, Loss: 174.24166870117188, LR: 0.0001 
+Iteration: 31/79, Loss: 175.90060424804688, LR: 0.0001 
+Iteration: 41/79, Loss: 185.98333740234375, LR: 0.0001 
+Iteration: 51/79, Loss: 170.0111083984375, LR: 0.0001 
+Iteration: 61/79, Loss: 146.26925659179688, LR: 0.0001 
+Iteration: 71/79, Loss: 175.60211181640625, LR: 0.0001 
+Train Loss: 1.3727 Acc: 0.6755
+Val Loss: 1.3565 Acc: 0.6707
+Best Val Accuracy: 0.6707000000000001
+
+Epoch 11/15
+----------
+
+--- phase : train ---
+
+Iteration: 1/391, Loss: 397.631591796875, LR: 0.0001 
+Iteration: 11/391, Loss: 341.5303955078125, LR: 0.0001 
+Iteration: 21/391, Loss: 353.7433776855469, LR: 0.0001 
+Iteration: 31/391, Loss: 387.7001953125, LR: 0.0001 
+Iteration: 41/391, Loss: 348.3363342285156, LR: 0.0001 
+Iteration: 51/391, Loss: 366.22650146484375, LR: 0.0001 
+Iteration: 61/391, Loss: 355.67047119140625, LR: 0.0001 
+Iteration: 71/391, Loss: 383.708251953125, LR: 0.0001 
+Iteration: 81/391, Loss: 358.0475158691406, LR: 0.0001 
+Iteration: 91/391, Loss: 341.9228210449219, LR: 0.0001 
+Iteration: 101/391, Loss: 337.1794738769531, LR: 0.0001 
+Iteration: 111/391, Loss: 357.7999572753906, LR: 0.0001 
+Iteration: 121/391, Loss: 330.740234375, LR: 0.0001 
+Iteration: 131/391, Loss: 361.6103210449219, LR: 0.0001 
+Iteration: 141/391, Loss: 360.7627258300781, LR: 0.0001 
+Iteration: 151/391, Loss: 340.1726379394531, LR: 0.0001 
+Iteration: 161/391, Loss: 329.9039306640625, LR: 0.0001 
+Iteration: 171/391, Loss: 387.73333740234375, LR: 0.0001 
+Iteration: 181/391, Loss: 364.8859558105469, LR: 0.0001 
+Iteration: 191/391, Loss: 332.0403747558594, LR: 0.0001 
+Iteration: 201/391, Loss: 344.217529296875, LR: 0.0001 
+Iteration: 211/391, Loss: 309.3802795410156, LR: 0.0001 
+Iteration: 221/391, Loss: 356.5085144042969, LR: 0.0001 
+Iteration: 231/391, Loss: 356.74029541015625, LR: 0.0001 
+Iteration: 241/391, Loss: 373.1572265625, LR: 0.0001 
+Iteration: 251/391, Loss: 333.7269287109375, LR: 0.0001 
+Iteration: 261/391, Loss: 364.3933410644531, LR: 0.0001 
+Iteration: 271/391, Loss: 361.5638427734375, LR: 0.0001 
+Iteration: 281/391, Loss: 316.0286865234375, LR: 0.0001 
+Iteration: 291/391, Loss: 337.84637451171875, LR: 0.0001 
+Iteration: 301/391, Loss: 358.0900573730469, LR: 0.0001 
+Iteration: 311/391, Loss: 350.09271240234375, LR: 0.0001 
+Iteration: 321/391, Loss: 322.13385009765625, LR: 0.0001 
+Iteration: 331/391, Loss: 379.6209411621094, LR: 0.0001 
+Iteration: 341/391, Loss: 365.1360778808594, LR: 0.0001 
+Iteration: 351/391, Loss: 386.0880432128906, LR: 0.0001 
+Iteration: 361/391, Loss: 341.4776916503906, LR: 0.0001 
+Iteration: 371/391, Loss: 322.2144470214844, LR: 0.0001 
+Iteration: 381/391, Loss: 345.709716796875, LR: 0.0001 
+Iteration: 391/391, Loss: 192.05291748046875, LR: 0.0001 
+
+--- phase : val ---
+
+Iteration: 1/79, Loss: 174.61080932617188, LR: 0.0001 
+Iteration: 11/79, Loss: 165.73553466796875, LR: 0.0001 
+Iteration: 21/79, Loss: 197.9311065673828, LR: 0.0001 
+Iteration: 31/79, Loss: 206.73939514160156, LR: 0.0001 
+Iteration: 41/79, Loss: 181.7227020263672, LR: 0.0001 
+Iteration: 51/79, Loss: 181.88636779785156, LR: 0.0001 
+Iteration: 61/79, Loss: 185.8800506591797, LR: 0.0001 
+Iteration: 71/79, Loss: 162.18360900878906, LR: 0.0001 
+Train Loss: 1.3608 Acc: 0.6780
+Val Loss: 1.3464 Acc: 0.6695
+Best Val Accuracy: 0.6707000000000001
+
+Epoch 12/15
+----------
+
+--- phase : train ---
+
+Iteration: 1/391, Loss: 355.6492919921875, LR: 0.0001 
+Iteration: 11/391, Loss: 349.3423767089844, LR: 0.0001 
+Iteration: 21/391, Loss: 338.9578857421875, LR: 0.0001 
+Iteration: 31/391, Loss: 341.6473388671875, LR: 0.0001 
+Iteration: 41/391, Loss: 379.3065185546875, LR: 0.0001 
+Iteration: 51/391, Loss: 336.5743713378906, LR: 0.0001 
+Iteration: 61/391, Loss: 371.1939697265625, LR: 0.0001 
+Iteration: 71/391, Loss: 393.99017333984375, LR: 0.0001 
+Iteration: 81/391, Loss: 359.4514465332031, LR: 0.0001 
+Iteration: 91/391, Loss: 358.2741394042969, LR: 0.0001 
+Iteration: 101/391, Loss: 348.72711181640625, LR: 0.0001 
+Iteration: 111/391, Loss: 375.73828125, LR: 0.0001 
+Iteration: 121/391, Loss: 317.83563232421875, LR: 0.0001 
+Iteration: 131/391, Loss: 377.3062438964844, LR: 0.0001 
+Iteration: 141/391, Loss: 346.4317932128906, LR: 0.0001 
+Iteration: 151/391, Loss: 321.4520568847656, LR: 0.0001 
+Iteration: 161/391, Loss: 338.1477355957031, LR: 0.0001 
+Iteration: 171/391, Loss: 335.2213439941406, LR: 0.0001 
+Iteration: 181/391, Loss: 355.3828125, LR: 0.0001 
+Iteration: 191/391, Loss: 311.5580749511719, LR: 0.0001 
+Iteration: 201/391, Loss: 353.9208068847656, LR: 0.0001 
+Iteration: 211/391, Loss: 351.7223815917969, LR: 0.0001 
+Iteration: 221/391, Loss: 350.8027038574219, LR: 0.0001 
+Iteration: 231/391, Loss: 347.3347473144531, LR: 0.0001 
+Iteration: 241/391, Loss: 338.1473693847656, LR: 0.0001 
+Iteration: 251/391, Loss: 361.38653564453125, LR: 0.0001 
+Iteration: 261/391, Loss: 337.9884338378906, LR: 0.0001 
+Iteration: 271/391, Loss: 350.8705139160156, LR: 0.0001 
+Iteration: 281/391, Loss: 363.7294006347656, LR: 0.0001 
+Iteration: 291/391, Loss: 313.5249938964844, LR: 0.0001 
+Iteration: 301/391, Loss: 352.2552490234375, LR: 0.0001 
+Iteration: 311/391, Loss: 342.6251220703125, LR: 0.0001 
+Iteration: 321/391, Loss: 395.6452331542969, LR: 0.0001 
+Iteration: 331/391, Loss: 359.9897766113281, LR: 0.0001 
+Iteration: 341/391, Loss: 356.0933532714844, LR: 0.0001 
+Iteration: 351/391, Loss: 324.3639831542969, LR: 0.0001 
+Iteration: 361/391, Loss: 341.2829895019531, LR: 0.0001 
+Iteration: 371/391, Loss: 322.5459899902344, LR: 0.0001 
+Iteration: 381/391, Loss: 374.55047607421875, LR: 0.0001 
+Iteration: 391/391, Loss: 206.3146209716797, LR: 0.0001 
+
+--- phase : val ---
+
+Iteration: 1/79, Loss: 161.48948669433594, LR: 0.0001 
+Iteration: 11/79, Loss: 187.99095153808594, LR: 0.0001 
+Iteration: 21/79, Loss: 162.37672424316406, LR: 0.0001 
+Iteration: 31/79, Loss: 166.15411376953125, LR: 0.0001 
+Iteration: 41/79, Loss: 164.59974670410156, LR: 0.0001 
+Iteration: 51/79, Loss: 166.1962432861328, LR: 0.0001 
+Iteration: 61/79, Loss: 168.0462646484375, LR: 0.0001 
+Iteration: 71/79, Loss: 166.7268524169922, LR: 0.0001 
+Train Loss: 1.3497 Acc: 0.6803
+Val Loss: 1.3407 Acc: 0.6741
+Best Val Accuracy: 0.6741
+
+Epoch 13/15
+----------
+
+--- phase : train ---
+
+Iteration: 1/391, Loss: 332.0345458984375, LR: 0.0001 
+Iteration: 11/391, Loss: 307.2890319824219, LR: 0.0001 
+Iteration: 21/391, Loss: 340.0111083984375, LR: 0.0001 
+Iteration: 31/391, Loss: 343.998046875, LR: 0.0001 
+Iteration: 41/391, Loss: 334.1319274902344, LR: 0.0001 
+Iteration: 51/391, Loss: 325.7576904296875, LR: 0.0001 
+Iteration: 61/391, Loss: 355.6041259765625, LR: 0.0001 
+Iteration: 71/391, Loss: 346.9335021972656, LR: 0.0001 
+Iteration: 81/391, Loss: 330.2909240722656, LR: 0.0001 
+Iteration: 91/391, Loss: 352.760986328125, LR: 0.0001 
+Iteration: 101/391, Loss: 332.4620361328125, LR: 0.0001 
+Iteration: 111/391, Loss: 335.8260192871094, LR: 0.0001 
+Iteration: 121/391, Loss: 334.7760314941406, LR: 0.0001 
+Iteration: 131/391, Loss: 343.4067687988281, LR: 0.0001 
+Iteration: 141/391, Loss: 374.6741638183594, LR: 0.0001 
+Iteration: 151/391, Loss: 320.7887268066406, LR: 0.0001 
+Iteration: 161/391, Loss: 316.8828430175781, LR: 0.0001 
+Iteration: 171/391, Loss: 322.7970275878906, LR: 0.0001 
+Iteration: 181/391, Loss: 351.81524658203125, LR: 0.0001 
+Iteration: 191/391, Loss: 334.5747985839844, LR: 0.0001 
+Iteration: 201/391, Loss: 339.9201354980469, LR: 0.0001 
+Iteration: 211/391, Loss: 327.7713928222656, LR: 0.0001 
+Iteration: 221/391, Loss: 314.2245178222656, LR: 0.0001 
+Iteration: 231/391, Loss: 334.7508850097656, LR: 0.0001 
+Iteration: 241/391, Loss: 319.9720458984375, LR: 0.0001 
+Iteration: 251/391, Loss: 334.2496643066406, LR: 0.0001 
+Iteration: 261/391, Loss: 360.5985412597656, LR: 0.0001 
+Iteration: 271/391, Loss: 325.787109375, LR: 0.0001 
+Iteration: 281/391, Loss: 322.5545349121094, LR: 0.0001 
+Iteration: 291/391, Loss: 352.3748474121094, LR: 0.0001 
+Iteration: 301/391, Loss: 342.98577880859375, LR: 0.0001 
+Iteration: 311/391, Loss: 333.4345703125, LR: 0.0001 
+Iteration: 321/391, Loss: 359.7091979980469, LR: 0.0001 
+Iteration: 331/391, Loss: 359.4490051269531, LR: 0.0001 
+Iteration: 341/391, Loss: 335.9933166503906, LR: 0.0001 
+Iteration: 351/391, Loss: 310.5339660644531, LR: 0.0001 
+Iteration: 361/391, Loss: 347.69952392578125, LR: 0.0001 
+Iteration: 371/391, Loss: 338.5179138183594, LR: 0.0001 
+Iteration: 381/391, Loss: 344.2823791503906, LR: 0.0001 
+Iteration: 391/391, Loss: 222.12804794311523, LR: 0.0001 
+
+--- phase : val ---
+
+Iteration: 1/79, Loss: 182.9073486328125, LR: 0.0001 
+Iteration: 11/79, Loss: 161.90371704101562, LR: 0.0001 
+Iteration: 21/79, Loss: 165.31781005859375, LR: 0.0001 
+Iteration: 31/79, Loss: 186.33973693847656, LR: 0.0001 
+Iteration: 41/79, Loss: 152.08352661132812, LR: 0.0001 
+Iteration: 51/79, Loss: 186.75950622558594, LR: 0.0001 
+Iteration: 61/79, Loss: 155.0722198486328, LR: 0.0001 
+Iteration: 71/79, Loss: 164.50579833984375, LR: 0.0001 
+Train Loss: 1.3394 Acc: 0.6811
+Val Loss: 1.3308 Acc: 0.6751
+Best Val Accuracy: 0.6751
+
+Epoch 14/15
+----------
+
+--- phase : train ---
+
+Iteration: 1/391, Loss: 309.8051452636719, LR: 1e-05 
+Iteration: 11/391, Loss: 351.6827087402344, LR: 1e-05 
+Iteration: 21/391, Loss: 333.56549072265625, LR: 1e-05 
+Iteration: 31/391, Loss: 334.12176513671875, LR: 1e-05 
+Iteration: 41/391, Loss: 341.3209533691406, LR: 1e-05 
+Iteration: 51/391, Loss: 349.7637939453125, LR: 1e-05 
+Iteration: 61/391, Loss: 329.0912780761719, LR: 1e-05 
+Iteration: 71/391, Loss: 329.7053527832031, LR: 1e-05 
+Iteration: 81/391, Loss: 360.21954345703125, LR: 1e-05 
+Iteration: 91/391, Loss: 323.1532287597656, LR: 1e-05 
+Iteration: 101/391, Loss: 307.5368347167969, LR: 1e-05 
+Iteration: 111/391, Loss: 372.72998046875, LR: 1e-05 
+Iteration: 121/391, Loss: 362.72808837890625, LR: 1e-05 
+Iteration: 131/391, Loss: 330.8810729980469, LR: 1e-05 
+Iteration: 141/391, Loss: 339.9530334472656, LR: 1e-05 
+Iteration: 151/391, Loss: 352.8538818359375, LR: 1e-05 
+Iteration: 161/391, Loss: 339.0665283203125, LR: 1e-05 
+Iteration: 171/391, Loss: 361.23358154296875, LR: 1e-05 
+Iteration: 181/391, Loss: 350.4922790527344, LR: 1e-05 
+Iteration: 191/391, Loss: 308.285888671875, LR: 1e-05 
+Iteration: 201/391, Loss: 329.1453857421875, LR: 1e-05 
+Iteration: 211/391, Loss: 345.0894775390625, LR: 1e-05 
+Iteration: 221/391, Loss: 337.09722900390625, LR: 1e-05 
+Iteration: 231/391, Loss: 313.1636962890625, LR: 1e-05 
+Iteration: 241/391, Loss: 308.4906311035156, LR: 1e-05 
+Iteration: 251/391, Loss: 353.240478515625, LR: 1e-05 
+Iteration: 261/391, Loss: 330.227783203125, LR: 1e-05 
+Iteration: 271/391, Loss: 322.0989074707031, LR: 1e-05 
+Iteration: 281/391, Loss: 340.705078125, LR: 1e-05 
+Iteration: 291/391, Loss: 320.13360595703125, LR: 1e-05 
+Iteration: 301/391, Loss: 333.71331787109375, LR: 1e-05 
+Iteration: 311/391, Loss: 301.9166259765625, LR: 1e-05 
+Iteration: 321/391, Loss: 314.5937805175781, LR: 1e-05 
+Iteration: 331/391, Loss: 340.8509521484375, LR: 1e-05 
+Iteration: 341/391, Loss: 312.2552185058594, LR: 1e-05 
+Iteration: 351/391, Loss: 333.8714294433594, LR: 1e-05 
+Iteration: 361/391, Loss: 324.1171875, LR: 1e-05 
+Iteration: 371/391, Loss: 333.5019836425781, LR: 1e-05 
+Iteration: 381/391, Loss: 350.84478759765625, LR: 1e-05 
+Iteration: 391/391, Loss: 199.89337921142578, LR: 1e-05 
+
+--- phase : val ---
+
+Iteration: 1/79, Loss: 177.28968811035156, LR: 1e-05 
+Iteration: 11/79, Loss: 156.27859497070312, LR: 1e-05 
+Iteration: 21/79, Loss: 174.1920166015625, LR: 1e-05 
+Iteration: 31/79, Loss: 161.19366455078125, LR: 1e-05 
+Iteration: 41/79, Loss: 171.4949188232422, LR: 1e-05 
+Iteration: 51/79, Loss: 165.44265747070312, LR: 1e-05 
+Iteration: 61/79, Loss: 153.68865966796875, LR: 1e-05 
+Iteration: 71/79, Loss: 156.94793701171875, LR: 1e-05 
+Train Loss: 1.3310 Acc: 0.6840
+Val Loss: 1.3294 Acc: 0.6740
+Best Val Accuracy: 0.6751
+
+Epoch 15/15
+----------
+
+--- phase : train ---
+
+Iteration: 1/391, Loss: 326.7642822265625, LR: 1e-05 
+Iteration: 11/391, Loss: 343.8101501464844, LR: 1e-05 
+Iteration: 21/391, Loss: 367.138671875, LR: 1e-05 
+Iteration: 31/391, Loss: 370.3891906738281, LR: 1e-05 
+Iteration: 41/391, Loss: 278.9406433105469, LR: 1e-05 
+Iteration: 51/391, Loss: 358.2767333984375, LR: 1e-05 
+Iteration: 61/391, Loss: 330.9553527832031, LR: 1e-05 
+Iteration: 71/391, Loss: 417.7002258300781, LR: 1e-05 
+Iteration: 81/391, Loss: 334.48187255859375, LR: 1e-05 
+Iteration: 91/391, Loss: 355.55645751953125, LR: 1e-05 
+Iteration: 101/391, Loss: 320.0289306640625, LR: 1e-05 
+Iteration: 111/391, Loss: 352.63494873046875, LR: 1e-05 
+Iteration: 121/391, Loss: 326.7427673339844, LR: 1e-05 
+Iteration: 131/391, Loss: 301.6170349121094, LR: 1e-05 
+Iteration: 141/391, Loss: 337.8086242675781, LR: 1e-05 
+Iteration: 151/391, Loss: 343.6607360839844, LR: 1e-05 
+Iteration: 161/391, Loss: 336.4622802734375, LR: 1e-05 
+Iteration: 171/391, Loss: 348.66632080078125, LR: 1e-05 
+Iteration: 181/391, Loss: 330.057373046875, LR: 1e-05 
+Iteration: 191/391, Loss: 369.7456359863281, LR: 1e-05 
+Iteration: 201/391, Loss: 367.04180908203125, LR: 1e-05 
+Iteration: 211/391, Loss: 341.732666015625, LR: 1e-05 
+Iteration: 221/391, Loss: 328.99444580078125, LR: 1e-05 
+Iteration: 231/391, Loss: 320.2490234375, LR: 1e-05 
+Iteration: 241/391, Loss: 350.77484130859375, LR: 1e-05 
+Iteration: 251/391, Loss: 343.9290771484375, LR: 1e-05 
+Iteration: 261/391, Loss: 363.5665283203125, LR: 1e-05 
+Iteration: 271/391, Loss: 371.3587951660156, LR: 1e-05 
+Iteration: 281/391, Loss: 341.0697326660156, LR: 1e-05 
+Iteration: 291/391, Loss: 379.5442810058594, LR: 1e-05 
+Iteration: 301/391, Loss: 382.8774719238281, LR: 1e-05 
+Iteration: 311/391, Loss: 381.3384094238281, LR: 1e-05 
+Iteration: 321/391, Loss: 357.0074768066406, LR: 1e-05 
+Iteration: 331/391, Loss: 329.0014953613281, LR: 1e-05 
+Iteration: 341/391, Loss: 282.5258483886719, LR: 1e-05 
+Iteration: 351/391, Loss: 326.84967041015625, LR: 1e-05 
+Iteration: 361/391, Loss: 304.3066101074219, LR: 1e-05 
+Iteration: 371/391, Loss: 332.8045349121094, LR: 1e-05 
+Iteration: 381/391, Loss: 307.9960021972656, LR: 1e-05 
+Iteration: 391/391, Loss: 227.98877716064453, LR: 1e-05 
+
+--- phase : val ---
+
+Iteration: 1/79, Loss: 165.64303588867188, LR: 1e-05 
+Iteration: 11/79, Loss: 173.9888153076172, LR: 1e-05 
+Iteration: 21/79, Loss: 164.76707458496094, LR: 1e-05 
+Iteration: 31/79, Loss: 158.12330627441406, LR: 1e-05 
+Iteration: 41/79, Loss: 159.59397888183594, LR: 1e-05 
+Iteration: 51/79, Loss: 176.2941436767578, LR: 1e-05 
+Iteration: 61/79, Loss: 170.183349609375, LR: 1e-05 
+Iteration: 71/79, Loss: 181.70455932617188, LR: 1e-05 
+Train Loss: 1.3264 Acc: 0.6839
+Val Loss: 1.3292 Acc: 0.6758
+Best Val Accuracy: 0.6758000000000001
+
+Training complete in 48m 5s
+Best val Acc: 0.675800

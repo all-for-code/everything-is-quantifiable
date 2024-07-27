@@ -1,0 +1,47 @@
+l0_intermediate_dense_kernel
+l0_intermediate_dense_bias
+l1_intermediate_dense_kernel
+l1_intermediate_dense_bias
+l2_intermediate_dense_kernel
+l2_intermediate_dense_bias
+l3_intermediate_dense_kernel
+l3_intermediate_dense_bias
+l4_intermediate_dense_kernel
+l4_intermediate_dense_bias
+l5_intermediate_dense_kernel
+l5_intermediate_dense_bias
+l6_intermediate_dense_kernel
+l6_intermediate_dense_bias
+l7_intermediate_dense_kernel
+l7_intermediate_dense_bias
+l8_intermediate_dense_kernel
+l8_intermediate_dense_bias
+l9_intermediate_dense_kernel
+l9_intermediate_dense_bias
+l10_intermediate_dense_kernel
+l10_intermediate_dense_bias
+l11_intermediate_dense_kernel
+l11_intermediate_dense_bias
+ss:l0_
+input_tensor:(1, -1, 768)
+q.value:<tensorrt.tensorrt.ITensor object at 0x78213f7e4ab0>
+q.shape:(1, 12, -1, 64)
+k.shape:(1, 12, 64, -1)
+k.value:<tensorrt.tensorrt.ITensor object at 0x78213f7e4cb0>
+engine:<tensorrt.tensorrt.ICudaEngine object at 0x78211812e9f0>
+==============model test===================
+time=0.1314700348302722ms
+output[0].shape:(1, 12, 16, 16)
+logits.shape:torch.Size([1, 12, 16, 16])
+top_10:tensor([[13,  2, 14, 13,  8,  2, 13,  6,  4, 13, 10,  9, 11,  0,  2, 11],
+        [ 8, 13,  0,  6, 15,  1,  8,  2, 12,  2,  2,  1, 14,  5,  0,  4],
+        [ 4, 10, 10,  0, 13,  4, 11, 13,  3,  0, 15, 14,  7,  7, 11,  6],
+        [12,  0,  5, 12,  3,  6,  3,  0,  5,  4,  6,  7,  3,  6,  6,  8],
+        [14,  6, 13,  4,  6,  0, 14,  1,  7,  6,  0,  3,  6,  3, 13,  1],
+        [ 3, 15,  4,  2, 12, 13,  6, 11,  6, 10, 12,  5,  5, 14,  4,  0],
+        [ 6,  4,  6,  5,  4,  9,  5,  8, 14, 12,  9,  8,  8, 12,  1, 14],
+        [15,  3,  7,  8,  0,  8, 15, 15, 13,  3,  1, 11, 10,  1,  9,  2],
+        [10,  5, 15, 15,  7, 15,  0,  9,  1, 15, 11, 13, 15, 15, 12,  3],
+        [ 5, 12,  2,  7,  5, 11,  2,  4,  9,  8, 13, 15,  0, 10, 15,  9]])
+top_10.type:<class 'torch.Tensor'>
+model test topk10 output:
